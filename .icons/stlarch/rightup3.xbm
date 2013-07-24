@@ -1,0 +1,4 @@
+#define rightup3_width 8
+#define rightup3_height 8
+static unsigned char rightup3_bits[] = {
+   0x00, 0x21, 0x7f, 0xff, 0xff, 0x7e, 0x20, 0x00};

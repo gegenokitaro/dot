@@ -1,0 +1,4 @@
+#define upleft1_width 8
+#define upleft1_height 8
+static unsigned char upleft1_bits[] = {
+   0x18, 0x3c, 0x7e, 0xff, 0x3c, 0x3c, 0x3c, 0x1e};

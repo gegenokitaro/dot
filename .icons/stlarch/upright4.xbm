@@ -1,0 +1,4 @@
+#define upright4_width 8
+#define upright4_height 8
+static unsigned char upright4_bits[] = {
+   0x00, 0x10, 0x38, 0x7c, 0xfe, 0x38, 0x38, 0x70};

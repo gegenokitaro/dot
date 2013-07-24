@@ -1,0 +1,4 @@
+#define batt6empty_width 8
+#define batt6empty_height 8
+static unsigned char batt6empty_bits[] = {
+   0x00, 0x00, 0x7f, 0x41, 0xc1, 0x41, 0x7f, 0x00};

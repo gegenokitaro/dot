@@ -1,0 +1,4 @@
+#define messenger2_width 8
+#define messenger2_height 8
+static unsigned char messenger2_bits[] = {
+   0x00, 0x30, 0x78, 0x78, 0x30, 0x78, 0xfc, 0xfc};

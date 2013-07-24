@@ -1,0 +1,4 @@
+#define monocle_width 8
+#define monocle_height 8
+static unsigned char monocle_bits[] = {
+   0xff, 0xff, 0xc3, 0xc3, 0xc3, 0xc3, 0xff, 0xff};

@@ -1,0 +1,4 @@
+#define downarrow5_width 8
+#define downarrow5_height 8
+static unsigned char downarrow5_bits[] = {
+   0x00, 0x78, 0x78, 0x78, 0x78, 0xfc, 0x78, 0x30};

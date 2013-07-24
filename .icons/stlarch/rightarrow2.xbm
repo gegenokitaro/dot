@@ -1,0 +1,4 @@
+#define rightarrow2_width 8
+#define rightarrow2_height 8
+static unsigned char rightarrow2_bits[] = {
+   0x00, 0x10, 0x30, 0x7f, 0xff, 0x7f, 0x30, 0x10};

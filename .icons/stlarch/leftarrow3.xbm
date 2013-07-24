@@ -1,0 +1,4 @@
+#define leftarrow3_width 8
+#define leftarrow3_height 8
+static unsigned char leftarrow3_bits[] = {
+   0x00, 0x04, 0xfe, 0xff, 0xff, 0xfe, 0x04, 0x00};

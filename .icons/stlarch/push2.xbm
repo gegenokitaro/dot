@@ -1,0 +1,4 @@
+#define circle2_width 8
+#define circle2_height 8
+static unsigned char circle2_bits[] = {
+   0x00, 0x7c, 0xfe, 0xfe, 0xfe, 0xfe, 0xfe, 0x7c};

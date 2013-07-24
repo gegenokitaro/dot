@@ -1,0 +1,4 @@
+#define wireless3_width 8
+#define wireless3_height 8
+static unsigned char wireless3_bits[] = {
+   0x80, 0x80, 0xa0, 0xa0, 0xa8, 0xa8, 0xa8, 0xa8};

@@ -1,0 +1,4 @@
+#define circle3_width 8
+#define circle3_height 8
+static unsigned char circle3_bits[] = {
+   0x00, 0x00, 0x78, 0xfc, 0xfc, 0xfc, 0xfc, 0x78};

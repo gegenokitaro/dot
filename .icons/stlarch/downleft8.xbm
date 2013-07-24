@@ -1,0 +1,4 @@
+#define downleft8_width 8
+#define downleft8_height 8
+static unsigned char downleft8_bits[] = {
+   0x00, 0x38, 0x70, 0x70, 0x70, 0xf8, 0x70, 0x20};

@@ -1,0 +1,4 @@
+#define square2_width 8
+#define square2_height 8
+static unsigned char square2_bits[] = {
+   0x00, 0xfe, 0xfe, 0xfe, 0xfe, 0xfe, 0xfe, 0xfe};

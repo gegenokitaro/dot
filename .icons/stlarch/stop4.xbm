@@ -1,0 +1,4 @@
+#define square4_width 8
+#define square4_height 8
+static unsigned char square4_bits[] = {
+   0x00, 0xfc, 0xfc, 0xfc, 0xfc, 0xfc, 0xfc, 0x00};

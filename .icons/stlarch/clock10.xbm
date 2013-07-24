@@ -1,0 +1,4 @@
+#define clock10_width 8
+#define clock10_height 8
+static unsigned char clock10_bits[] = {
+   0x00, 0xfc, 0xec, 0xec, 0x8c, 0xfc, 0xfc, 0x00};

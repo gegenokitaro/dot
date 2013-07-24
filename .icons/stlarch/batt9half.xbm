@@ -1,0 +1,4 @@
+#define batt9half_width 8
+#define batt9half_height 8
+static unsigned char batt9half_bits[] = {
+   0x00, 0x7f, 0xc1, 0xc5, 0xc1, 0x7f, 0x00, 0x00};

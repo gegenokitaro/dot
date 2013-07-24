@@ -1,0 +1,4 @@
+#define leftdown2_width 8
+#define leftdown2_height 8
+static unsigned char leftdown2_bits[] = {
+   0x00, 0x08, 0x0c, 0x7e, 0xff, 0xfe, 0x8c, 0x08};

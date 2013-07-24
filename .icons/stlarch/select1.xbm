@@ -1,0 +1,4 @@
+#define select1_width 8
+#define select1_height 8
+static unsigned char select1_bits[] = {
+   0x00, 0x18, 0x3c, 0x7e, 0xff, 0x00, 0xff, 0x00};

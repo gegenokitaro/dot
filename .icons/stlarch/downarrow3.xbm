@@ -1,0 +1,4 @@
+#define downarrow3_width 8
+#define downarrow3_height 8
+static unsigned char downarrow3_bits[] = {
+   0x38, 0x38, 0x38, 0x38, 0xfe, 0x7c, 0x38, 0x10};

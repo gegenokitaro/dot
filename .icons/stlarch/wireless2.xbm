@@ -1,0 +1,4 @@
+#define wireless2_width 8
+#define wireless2_height 8
+static unsigned char wireless2_bits[] = {
+   0x00, 0x00, 0xc0, 0xc0, 0xd8, 0xd8, 0xd8, 0xd8};

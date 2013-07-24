@@ -1,0 +1,4 @@
+#define downarrow7_width 8
+#define downarrow7_height 8
+static unsigned char downarrow7_bits[] = {
+   0x00, 0x70, 0x70, 0x70, 0x70, 0xf8, 0x70, 0x20};

@@ -1,0 +1,4 @@
+#define pacman4_width 8
+#define pacman4_height 8
+static unsigned char pacman4_bits[] = {
+   0x00, 0x78, 0xec, 0x7c, 0x3c, 0xfc, 0x78, 0x00};

@@ -1,0 +1,4 @@
+#define downright4_width 8
+#define downright4_height 8
+static unsigned char downright4_bits[] = {
+   0xf0, 0x78, 0x78, 0x78, 0x78, 0xfc, 0x78, 0x30};

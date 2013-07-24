@@ -1,0 +1,4 @@
+#define logout2_width 8
+#define logout2_height 8
+static unsigned char logout2_bits[] = {
+   0x00, 0x30, 0x30, 0x78, 0xb4, 0xb4, 0x84, 0x78};

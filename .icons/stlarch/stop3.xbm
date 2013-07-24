@@ -1,0 +1,4 @@
+#define square3_width 8
+#define square3_height 8
+static unsigned char square3_bits[] = {
+   0x00, 0x00, 0xfc, 0xfc, 0xfc, 0xfc, 0xfc, 0xfc};

@@ -1,0 +1,4 @@
+#define nbstack_width 8
+#define nbstack_height 8
+static unsigned char nbstack_bits[] = {
+   0xef, 0xef, 0xef, 0xef, 0x00, 0xdb, 0xdb, 0xdb};

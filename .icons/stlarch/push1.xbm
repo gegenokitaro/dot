@@ -1,0 +1,4 @@
+#define circlelg_width 8
+#define circlelg_height 8
+static unsigned char circlelg_bits[] = {
+   0x3c, 0x7e, 0xff, 0xff, 0xff, 0xff, 0x7e, 0x3c};

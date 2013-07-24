@@ -1,0 +1,4 @@
+#define downright3_width 8
+#define downright3_height 8
+static unsigned char downright3_bits[] = {
+   0x70, 0x38, 0x38, 0x38, 0xfe, 0x7c, 0x38, 0x10};

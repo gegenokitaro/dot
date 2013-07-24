@@ -1,0 +1,4 @@
+#define downright6_width 8
+#define downright6_height 8
+static unsigned char downright6_bits[] = {
+   0xe0, 0x70, 0x70, 0x70, 0x70, 0xf8, 0x70, 0x20};

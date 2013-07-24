@@ -1,0 +1,4 @@
+#define uparrow2_width 8
+#define uparrow2_height 8
+static unsigned char uparrow2_bits[] = {
+   0x00, 0x18, 0x3c, 0x7e, 0xff, 0x3c, 0x3c, 0x3c};

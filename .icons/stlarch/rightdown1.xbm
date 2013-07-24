@@ -1,0 +1,4 @@
+#define rightdown1_width 8
+#define rightdown1_height 8
+static unsigned char rightdown1_bits[] = {
+   0x10, 0x30, 0x7e, 0xff, 0xff, 0x7f, 0x31, 0x10};

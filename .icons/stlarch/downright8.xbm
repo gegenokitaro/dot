@@ -1,0 +1,4 @@
+#define downright7_width 8
+#define downright7_height 8
+static unsigned char downright7_bits[] = {
+   0x00, 0xe0, 0x70, 0x70, 0x70, 0xf8, 0x70, 0x20};
