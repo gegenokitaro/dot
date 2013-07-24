@@ -10,7 +10,8 @@ import XMonad.Hooks.DynamicLog
 import XMonad.Hooks.ManageDocks
 import System.IO
 
---myWorkspaces = clickable . (map dzenEscape) $ [":main", ":web", ":test", ":scr", ":oth"]
+-- workspaces not clickable ~ i don't like clickable.. if you want to add clickable feature
+-- just add clickable . in front of bracket
 myWorkspaces = [
 		wrapBitmap "arch.xbm) ^fg(#ffffff):main^fg()",
 		wrapBitmap "fox.xbm) ^fg(#ffffff):web^fg()",
@@ -25,10 +26,8 @@ myIcon = "/home/hokage/.icons/xbm8x8/"
 myStatusBar = "sh ~/scripts/barcolor.sh | dzen2 -p -fn 'edges-9' -h 18 -e 'onstart=uncollapse;key_Escape=ungrabkeys,exit'"
 
 main = do
-  bar <- spawnPipe callDzen1
+  bar <- spawnPipe statsDzen
   bar2 <- spawnPipe "sh /home/hokage/scripts/statusbar.sh | dzen2 -p -fn 'Envy Code R-7' -h 18 -w 866 -x 500 -ta r"
-  --dzenTopBar <- spawnPipe myWorkspaces
-  --dzenTopBar <- spawnPipe myStatusBar
   xmonad $ defaultConfig
     { manageHook = manageDocks <+> manageHook defaultConfig
     , borderWidth = 4
@@ -40,15 +39,9 @@ main = do
     , layoutHook = avoidStruts $ spacing 3 $ Tall 1 (3/100) (1/2)
     , logHook = myLogHook bar
     } `additionalKeys` myKeys
-    where callDzen1 = "dzen2 -ta l -fn '"
+    where statsDzen = "dzen2 -ta l -fn '"
                       ++ dzenFont
                       ++ "' -w 500 -h 18 -e 'button3='"
-          callDzen2 = "dzen2 -x 1000 -w 500 -ta r -fn '"
-                      ++ dzenFont
-                      ++ "' -bg '#000000' -h 18 -e 'onnewinput=;button3='"
-          dzenStats = "sh /home/hokage/scripts/statusbar.sh | dzen2 -p 1 -fn'" 
-                       ++ dzenFont
-                       ++ "' -h 18 -w 866 -x 500 -ta r"
           dzenFont  = "Envy Code R-7"
 
 myKeys = 
@@ -67,27 +60,10 @@ myLogHook h = do
   dynamicLogWithPP $ tryPP h
 tryPP :: Handle -> PP
 tryPP h = defaultPP {
---myLogHook ::  H.Handle -> X ()
---myLogHook h = (dynamicLogWithPP $ defaultPP {
-    
-        --ppCurrent           =   dzenColor (colLook White 0)
-        --                                  (colLook Cyan  0) . pad
-        ppCurrent	    =   --dzenColor (colLook Black 0)
-                                --          (colLook 0 0) 
-                                wrap 
-"^p(2)^fg(#0088cc)^i(/home/hokage/.icons/xbm8x8/corner_left.xbm)^fg(#0088cc)^r(38x12)^p(-40)^ib(1)^fg()""^fg(#0088cc)^i(/home/hokage/.icons/xbm8x8/corner_right.xbm)^fg()" 
-      , ppVisible           =   --dzenColor (colLook Cyan  0)
-                                --          (colLook Black 0) . 
-                                wrap 
-"^p(2)^fg(#b8d68c)^i(/home/hokage/.icons/xbm8x8/corner_left.xbm)^fg(#b8d68c)^r(38x12)^p(-40)^ib(1)^fg()""^fg(#b8d68c)^i(/home/hokage/.icons/xbm8x8/corner_right.xbm)^fg()"
-      , ppHidden            =   --dzenColor (colLook Cyan  0)
-                                --          (colLook BG    0) 
-                                wrap 
-"^p(2)^fg(#808080)^i(/home/hokage/.icons/xbm8x8/corner_left.xbm)^fg(#808080)^r(38x12)^p(-40)^ib(1)^fg()""^fg(#808080)^i(/home/hokage/.icons/xbm8x8/corner_right.xbm)^fg()"
-      , ppHiddenNoWindows   =   --dzenColor (colLook White 1)
-                                --          (colLook BG    0)
-                                wrap 
-"^p(2)^fg(#404040)^i(/home/hokage/.icons/xbm8x8/corner_left.xbm)^fg(#404040)^r(38x12)^p(-40)^ib(1)^fg()""^fg(#404040)^i(/home/hokage/.icons/xbm8x8/corner_right.xbm)^fg()"
+        ppCurrent	    =   wrap "^p(2)^fg(#0088cc)^i(/home/hokage/.icons/xbm8x8/corner_left.xbm)^fg(#0088cc)^r(38x12)^p(-40)^ib(1)^fg()""^fg(#0088cc)^i(/home/hokage/.icons/xbm8x8/corner_right.xbm)^fg()" 
+      , ppVisible           =   wrap "^p(2)^fg(#b8d68c)^i(/home/hokage/.icons/xbm8x8/corner_left.xbm)^fg(#b8d68c)^r(38x12)^p(-40)^ib(1)^fg()""^fg(#b8d68c)^i(/home/hokage/.icons/xbm8x8/corner_right.xbm)^fg()"
+      , ppHidden            =   wrap "^p(2)^fg(#808080)^i(/home/hokage/.icons/xbm8x8/corner_left.xbm)^fg(#808080)^r(38x12)^p(-40)^ib(1)^fg()""^fg(#808080)^i(/home/hokage/.icons/xbm8x8/corner_right.xbm)^fg()"
+      , ppHiddenNoWindows   =   wrap "^p(2)^fg(#404040)^i(/home/hokage/.icons/xbm8x8/corner_left.xbm)^fg(#404040)^r(38x12)^p(-40)^ib(1)^fg()""^fg(#404040)^i(/home/hokage/.icons/xbm8x8/corner_right.xbm)^fg()"
       , ppUrgent            =   dzenColor (colLook Red   0)
                                           (colLook BG    0) . wrap "^i(/home/hokage/.icons/xbm8x8/corner_left.xbm)""^i(/home/hokage/.icons/xbm8x8/corner_right.xbm)"
       , ppWsSep             =   ""
