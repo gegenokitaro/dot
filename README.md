@@ -1,4 +1,5 @@
 this dot contains my dot. 
+-------------------------
 My configuration files for xmonad and other compliment
 ------------------------------------------------------
 I use
