@@ -9,29 +9,28 @@ import XMonad.Layout.Spacing
 import XMonad.Hooks.DynamicLog
 import XMonad.Hooks.ManageDocks
 import System.IO
+	
+--- workspaces not clickable ~ i don't like clickable.. if you want to add clickable feature
+--- just add clickable . in front of bracket
 
--- workspaces not clickable ~ i don't like clickable.. if you want to add clickable feature
--- just add clickable . in front of bracket
 myWorkspaces = [
 		wrapBitmap "arch.xbm) ^fg(#ffffff):main^fg()",
 		wrapBitmap "fox.xbm) ^fg(#ffffff):web^fg()",
 		wrapBitmap "shroom.xbm) ^fg(#ffffff):test^fg()",
-		wrapBitmap "pacman.xbm) ^fg(#ffffff):scr^fg()",
+		wrapBitmap "pacman.xbm) ^fg(#ffffff):scr ^fg()",
 		wrapBitmap "info_01.xbm) ^fg(#ffffff):oth^fg()"
 	       ] 
   where wrapBitmap bitmap = "^(p)^i("++myIcon++bitmap++""
 
 myIcon = "/home/hokage/.icons/xbm8x8/"
 
-myStatusBar = "sh ~/scripts/barcolor.sh | dzen2 -p -fn 'edges-9' -h 18 -e 'onstart=uncollapse;key_Escape=ungrabkeys,exit'"
-
 main = do
-  bar <- spawnPipe statsDzen
-  bar2 <- spawnPipe "sh /home/hokage/scripts/statusbar.sh | dzen2 -p -fn 'Envy Code R-7' -h 18 -w 866 -x 500 -ta r"
+  bar <- spawnPipe statsbar
+  bar3 <- spawnPipe "sh /home/hokage/scripts/powerline.sh
   xmonad $ defaultConfig
     { manageHook = manageDocks <+> manageHook defaultConfig
     , borderWidth = 4
-    , terminal = "urxvt"
+    , terminal = "termite"
     , normalBorderColor = "#848482"
     , focusedBorderColor = "#0088cc" 
     , workspaces = myWorkspaces
@@ -39,10 +38,10 @@ main = do
     , layoutHook = avoidStruts $ spacing 3 $ Tall 1 (3/100) (1/2)
     , logHook = myLogHook bar
     } `additionalKeys` myKeys
-    where statsDzen = "dzen2 -ta l -fn '"
+    where statsbar = "dzen2 -ta l -fn '"
                       ++ dzenFont
-                      ++ "' -w 500 -h 18 -e 'button3='"
-          dzenFont  = "Envy Code R-7"
+                      ++ "' -w 500 -bg '#000000' -h 17 -e 'button3='"
+          dzenFont  = "M+ 1c-7:Bold"
 
 myKeys = 
     [ ((mod4Mask  .|.  shiftMask,  xK_r), spawn "dmenu_run -b")
@@ -60,14 +59,14 @@ myLogHook h = do
   dynamicLogWithPP $ tryPP h
 tryPP :: Handle -> PP
 tryPP h = defaultPP {
-        ppCurrent	    =   wrap "^p(2)^fg(#0088cc)^i(/home/hokage/.icons/xbm8x8/corner_left.xbm)^fg(#0088cc)^r(38x12)^p(-40)^ib(1)^fg()""^fg(#0088cc)^i(/home/hokage/.icons/xbm8x8/corner_right.xbm)^fg()" 
+        ppCurrent	    	=   wrap "^p(2)^fg(#0088cc)^i(/home/hokage/.icons/xbm8x8/corner_left.xbm)^fg(#0088cc)^r(38x12)^p(-40)^ib(1)^fg()""^fg(#0088cc)^i(/home/hokage/.icons/xbm8x8/corner_right.xbm)^fg()" 
       , ppVisible           =   wrap "^p(2)^fg(#b8d68c)^i(/home/hokage/.icons/xbm8x8/corner_left.xbm)^fg(#b8d68c)^r(38x12)^p(-40)^ib(1)^fg()""^fg(#b8d68c)^i(/home/hokage/.icons/xbm8x8/corner_right.xbm)^fg()"
-      , ppHidden            =   wrap "^p(2)^fg(#808080)^i(/home/hokage/.icons/xbm8x8/corner_left.xbm)^fg(#808080)^r(38x12)^p(-40)^ib(1)^fg()""^fg(#808080)^i(/home/hokage/.icons/xbm8x8/corner_right.xbm)^fg()"
+      , ppHidden            =   wrap "^p(2)^fg(#818181)^i(/home/hokage/.icons/xbm8x8/corner_left.xbm)^fg(#818181)^r(38x12)^p(-40)^ib(1)^fg()""^fg(#818181)^i(/home/hokage/.icons/xbm8x8/corner_right.xbm)^fg()"
       , ppHiddenNoWindows   =   wrap "^p(2)^fg(#404040)^i(/home/hokage/.icons/xbm8x8/corner_left.xbm)^fg(#404040)^r(38x12)^p(-40)^ib(1)^fg()""^fg(#404040)^i(/home/hokage/.icons/xbm8x8/corner_right.xbm)^fg()"
       , ppUrgent            =   dzenColor (colLook Red   0)
                                           (colLook BG    0) . wrap "^i(/home/hokage/.icons/xbm8x8/corner_left.xbm)""^i(/home/hokage/.icons/xbm8x8/corner_right.xbm)"
       , ppWsSep             =   ""
-      , ppSep               =   " :: "
+      , ppSep               =   " ^fg(#FFFFFF)::^fg() "
       , ppLayout            =   dzenColor (colLook Cyan 0) "#151515" .
             (\x -> case x of
                 "Spacing 3 Tall"        -> clickInLayout ++ icon1
@@ -78,7 +77,7 @@ tryPP h = defaultPP {
 		"SimplestFloat"		 -> clickInLayout ++ icon6
                 _                        -> x
             )
-      , ppTitle             =   (" " ++) . dzenColor "#A3A3A3" "#151515" . dzenEscape
+      , ppTitle             =   (" " ++) . dzenColor "#FFFFFF" "#151515" . dzenEscape
       , ppOutput            =   hPutStrLn h
     }
     where icon1 = "^i(/home/hokage/.icons/stlarch/tile.xbm)^ca()"
