@@ -3,7 +3,7 @@ this dot contains my dot.
 My configuration files for xmonad and other compliment
 
 I use
-+  dzen2 > for bar and appley
++  dzen2 > for bar and candy
 +  conky > for album display
 +  mpd & ncmpcpp > music player and its client
 +  feh > set wallpaper
