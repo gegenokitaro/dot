@@ -15,5 +15,4 @@ As Long as..
 New Feature
 -----------
 + dzen2 mpd
-
 ![My Screenshot](currentmpd.png "SPRING")
