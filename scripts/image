@@ -1,0 +1,15 @@
+alignment top_left
+gap_x 783
+gap_y 27
+update_interval 0.1
+no_buffers yes
+double_buffers yes
+#maximum_width 1024
+imlib_cache_size 0
+total_run_times 0
+own_window_type desktop
+
+TEXT
+${if_mpd_playing}
+${execi 1 python2 albumart.py}${image /tmp/cover.jpg -s 87x87}
+$endif
