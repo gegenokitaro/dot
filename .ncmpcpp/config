@@ -1,0 +1,60 @@
+# NCMPCPP CONFIGURATION
+# FOR SETTINGS INFORMATION, SEE /usr/share/doc/ncmpcpp/config
+
+# DIRECTORY SETTINGS
+  mpd_music_dir = "/home/hokage/Music"
+  lyrics_directory="~/.ncmpcpp/lyrics"  
+
+# VISUALIZER
+  visualizer_fifo_path = "/home/hokage/.mpd/mpd.fifo"
+  visualizer_output_name = "fifo"
+  visualizer_sync_interval = "0"
+  visualizer_type = "spectrum"
+
+# BEHAVIOUR  
+  mpd_crossfade_time ="3"
+  mpd_disable_highlight_delay="1"
+  autocenter_mode = "yes"
+  centered_cursor = "yes"
+  display_screens_numbers_on_start="yes"
+  mouse_support = "no"
+  ask_before_clearing_main_playlist = "yes"
+  statusbar_visibility = "no"
+  display_remaining_time = "no"
+
+# USER INTERFACE
+  progressbar_look = "─╼ "
+  titles_visibility = "no"
+  header_visibility = "no"
+  discard_colors_if_item_is_selected = "no"
+  clock_display_seconds="no"
+  display_bitrace="yes"
+  empty_tag_marker="--"
+  playlist+shorten_total_times="no"
+
+# USER INTERFACE - PLAYLIST
+  browser_playlist_prefix="$2plist »$9"
+  #browser_playlist_prefix="$5[LIST] $9"
+  song_list_format = "{$5%a $2•$0 $0%t}|{$0%f}$R$5[$9%l$5]$0"
+  #song_list_format = " $R{$5%a  $2•$0  $1»$7»$8»  $0%t}|{$0%f}$R $1»$7»$8» $5$9%l$5$0"
+  song_status_format = "$5%a$0 $2• $0%t $4"
+  selected_item_prefix=">>"
+  selected_item_suffix=">>"
+  now_playing_prefix = "$b$1»$7»$8» "
+  now_playing_suffix = "$/b"
+
+# COLOR
+  color1              = "yellow"
+  color2              = "white"
+  header_window_color = "yellow"
+  main_window_color   = "white"
+  main_window_highlight_color = "cyan"
+  statusbar_color     = "white"
+  progressbar_color   = "white"
+  empty_tag_color     = "blue"
+  state_line_color    = "white"
+  state_flags_color   = "white"
+  active_column_color = "yellow"
+  main_window_highlight_color    = "yellow"
+  alternative_ui_separator_color = "white"
+  visualizer_color = "cyan"
