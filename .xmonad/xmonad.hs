@@ -26,7 +26,7 @@ myIcon = "/home/hokage/.icons/xbm8x8/"
 
 main = do
   bar <- spawnPipe statsbar
-  bar3 <- spawnPipe "sh /home/hokage/scripts/powerline.sh
+  bar3 <- spawnPipe "sh /home/hokage/scripts/powerline.sh"
   xmonad $ defaultConfig
     { manageHook = manageDocks <+> manageHook defaultConfig
     , borderWidth = 4
