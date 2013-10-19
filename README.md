@@ -16,3 +16,7 @@ New Feature
 -----------
 + dzen2 mpd
 ![My Screenshot](currentmpd.png "SPRING")
+
+XFCE4
++ i use xfce4 now
+![My Screenshot](xfce-4-temporary-truce.png)
