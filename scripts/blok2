@@ -1,0 +1,31 @@
+double_buffer yes
+background yes
+own_window yes
+own_window_transparent no
+own_window_type desktop
+own_window_hints undecorate,sticky,skip_taskbar,skip_pager,below
+#own_window_argb_visual yes
+#own_window_argb_value 170
+draw_borders no
+draw_graph_borders no
+draw_shades no
+gap_y 60
+gap_x 340
+alignment top_left
+update_interval 0.5
+own_window_colour 7cbd8b
+use_xft yes
+xftfont M+ 1m:pixelsize=12
+use_spacer none 
+minimum_size 300 110
+border_inner_margin 15
+uppercase no
+
+TEXT
+cpu ${goto 60}${cpu} ${goto 120}${cpubar 4,50} ${voffset -2}${goto 200}up ${goto 260}${upspeedf enp2s0}
+${voffset -2}mem ${goto 60}${mem} ${goto 120}${membar 4,50} ${voffset -2}${goto 200}down ${goto 260}${downspeedf enp2s0}
+${voffset -2}swp ${goto 60}${swap} ${goto 120}${swapbar 4,50}
+
+HDD
+${voffset -4}root ${goto 60}${fs_free /} ${goto 120}${fs_bar 4,180 /}
+${voffset -4}data ${goto 60}${fs_size /home/kagura/HD} ${goto 120}${fs_bar 4,180 /home/kagura/HD}

@@ -1,0 +1,35 @@
+double_buffer yes
+background yes
+own_window yes
+own_window_transparent no
+own_window_type desktop
+own_window_hints undecorate,sticky,skip_taskbar,skip_pager,below
+#own_window_argb_visual yes
+#own_window_argb_value 170
+draw_borders no
+draw_graph_borders no
+draw_shades no
+gap_y 220
+gap_x 390
+alignment top_left
+update_interval 0.5
+own_window_colour 7cbd8b
+use_xft yes
+xftfont M+ 1m:pixelsize=12
+use_spacer none 
+minimum_size 400 100
+maximum_width 400
+border_inner_margin 15
+uppercase no
+
+TEXT
+${font M+ 1m:pixelsize=16}Fakku: A Man's Need$font
+
+${rss http://feeds.feedburner.com/fakku 10 item_title 1}
+#${voffset -6}${font M+ 1m:pixelsize=8}${rss http://feeds.feedburner.com/fakku 10 item_desc 1}$font
+${rss http://feeds.feedburner.com/fakku 10 item_title 2}
+#${voffset -6}${font M+ 1m:pixelsize=8}${rss http://feeds.feedburner.com/fakku 10 item_desc 2}$font
+${rss http://feeds.feedburner.com/fakku 10 item_title 3}
+#${voffset -6}${font M+ 1m:pixelsize=8}${rss http://feeds.feedburner.com/fakku 10 item_desc 3}$font
+${rss http://feeds.feedburner.com/fakku 10 item_title 4}
+#${voffset -6}${font M+ 1m:pixelsize=8}${rss http://feeds.feedburner.com/fakku 10 item_desc 4}$font

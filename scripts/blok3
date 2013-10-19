@@ -1,0 +1,30 @@
+double_buffer yes
+background yes
+own_window yes
+own_window_transparent no
+own_window_type desktop
+own_window_hints undecorate,sticky,skip_taskbar,skip_pager,below
+#own_window_argb_visual yes
+#own_window_argb_value 170
+draw_borders no
+draw_graph_borders no
+draw_shades no
+gap_y 60
+gap_x 690
+alignment top_left
+update_interval 0.5
+own_window_colour dd771f
+use_xft yes
+xftfont M+ 1m:pixelsize=17
+use_spacer none 
+minimum_size 180 110
+maximum_width 180
+border_inner_margin 15
+uppercase no
+
+TEXT
+${scroll 22 $mpd_artist}
+${scroll 50 $mpd_title}
+${scroll 50 $mpd_album}
+$alignr${font Inconsolata:pixelsize=12}${mpd_bar 9,180}
+$alignr${font M+ 1m:pixelsize=12}${mpd_elapsed}
