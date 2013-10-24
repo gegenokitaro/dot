@@ -8,9 +8,9 @@ I use
 +  mpd & ncmpcpp > music player and its client
 +  feh > set wallpaper
 
-As Long as..
+XFCE4 in da house yo..
 
-![My Screenshot](minimalasfuck.png)
+![My Screenshot](xfce-4-temporary-truce.png)
 
 New Feature
 -----------
@@ -19,9 +19,3 @@ New Feature
 
 + ncmpcpp - current
 ![My Screenshot](ncmpcpp-current.png "SPRING")
-
-XFCE4
------------
-+ i use xfce4 now
-![My Screenshot](xfce-4-temporary-truce.png)
-
