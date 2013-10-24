@@ -1,0 +1,48 @@
+urxvt.font:			xft:Inconsolata:pixelsize=12
+urxvt.termName:		big tit
+urxvt.background:		[95]#161616
+urxvt.foreground:		#a5a5a5
+urxvt.foreground_bold:	#fedfed
+urxvt.depth:			32
+urxvt.scrollBar:			false
+urxvt.matcher.button:	1
+urxvt.transparent:		false
+urxvt.allow_bold:		true
+
+Xft.dpi:				96
+Xft.antialias:			true
+Xft.hinting:			full
+
+URxvt.geometry:		85x28
+URxvt.fading:			0
+URxvt.tintColor:		#ffffff
+URxvt.shading:			0
+URxvt.inheritPixmap:	false
+
+urxvt.cursorColor:		#a5a5a5
+
+! --- standard colors ---
+
+urxvt.color0: 			#161616
+urxvt.color8: 			#4f4f4f
+
+urxvt.color1: 			#c43761
+urxvt.color9: 			#e9b1c2
+
+urxvt.color2: 			#61c437
+urxvt.color10: 			#c2e9b1
+
+urxvt.color3: 			#c49a37
+urxvt.color11: 			#e9d8b1
+
+urxvt.color4: 			#3761c4
+urxvt.color12: 			#b1c2e9
+
+urxvt.color5: 			#9a37c4
+urxvt.color13: 			#d8b1e9
+
+urxvt.color6: 			#37c49a
+urxvt.color14: 			#b1e9d8
+
+urxvt.color7: 			#d3d3d3
+urxvt.color15: 			#f7f7f7
