@@ -15,9 +15,11 @@ XFCE4 in da house yo..
 New Feature
 -----------
 + dzen2 mpd
+
 ![My Screenshot](currentmpd.png "SPRING")
 
 + ncmpcpp - current
+
 ![My Screenshot](ncmpcpp-current.png "SPRING")
 
 + conky-majestic ~ not yet - wip
