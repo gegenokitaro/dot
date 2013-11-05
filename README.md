@@ -21,4 +21,5 @@ New Feature
 ![My Screenshot](ncmpcpp-current.png "SPRING")
 
 + conky-majestic ~ not yet - wip
+
 ![My Screenshot](conky-majestic.png "SPRING")
