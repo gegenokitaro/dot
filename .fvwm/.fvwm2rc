@@ -6,33 +6,35 @@ SetEnv fvwm_mail mutt
 SetEnv fvwm_media_player mpd
 SetEnv fvwm_video_player vlc
 
+SetEnv fvwm_img /home/kagura/.fvwm/button
+
 # STYLE
 
-#SetEnv fvwm_theme pico
-#SetEnv fvwm_theme_img $./deco/$[fvwm_theme]
-#Read $./deco/$[fvwm_theme].fvwm2rc
-
-Colorset 1 fg #FF4EB1, bg #161616
+Colorset 1 fg #FF4EB1, bg #202020
 Colorset 2 fg #eef9ff, bg #004ea7
-Colorset 7 fg #e5e5e5, bg #004ea7
+Colorset 7 fg #e5e5e5, bg #004ea7, sh #e5e5e5, hi #e5e5e5
 Colorset 8 fg #004ea7, bg #e5e5e5, sh #004ea7, hi #004ea7
+Colorset 9 fg #FF4EB1, bg #202020, sh #202020, hi #FF4EB1
 
 DestroyDecor MyDecor
 AddToDecor MyDecor
-+ TitleStyle RightJustified Height 18 -- flat
++ TitleStyle  LeftJustified Height 20 -- Flat
++ BorderStyle -- NoInset Flat
+
 
 Style * UseDecor MyDecor
 Style * Font "xft:M+ 1m:pixelsize=12:antialias=True"
-Style * BorderWidth 5, HandleWidth 1 -- flat
-Style * MWMBorder, FirmBorder -- flat
+Style "*" BorderWidth 1, HandleWidth 4 -- flat
+Style * MWMBorder, FirmBorder, MWMButton -- flat
 Style * Colorset 1
 Style * HilightColorset 2
 
 Style * TitleAtRight
 
+
 # VIRTUAL DESKTOPS
 
-DesktopSize 3x1
+DesktopSize 4x1
 DesktopName 0 Main
 DesktopName 1 Browse
 DesktopName 2 Test
@@ -48,9 +50,9 @@ AddToFunc close_window
 
 ClickTime 350
 MoveTreshold 1
-Style * SloppyFocus, MouseFocusClickRaises
+Style * ClickToFocus, MouseFocusClickRaises
 
-EwmhBaseStruts 10 10 20 10
+EwmhBaseStruts 10 10 20 20
 IgnoreModifiers L25
 
 Key F1 A M Menu MenuFvwmRoot
@@ -70,47 +72,65 @@ AddToMenu MainMenu MainMenu Title
 
 AddToFunc MakeMainMenu
 + I DestroyMenu recreate MainMenu "Oenyoeh" title
-+ I AddToMenu MainMenu "" Nop
 + I AddToMenu MainMenu " Run" Exec exec dmenu_run -b
 + I AddToMenu MainMenu " &Terminal" Exec exec urxvt
 + I AddToMenu MainMenu " &Web Browser" Exec exec chromium
 + I AddToMenu MainMenu " &File Manager" Exec exec thunar
 + I AddToMenu MainMenu " Art" Popup Art
 + I AddToMenu MainMenu " Dotfiles" Popup dot
-+ I AddToMenu MainMenu " &MPD Client" Exec exec urxvt -e ncmpcpp
-+ I AddToMenu MainMenu " &scrot" Exec exec scrot
 + I AddToMenu MainMenu " Restart" Restart
 
 DestroyMenu Art
 AddToMenu Art
-+ "GIMP" Exec exec gimp
-+ "Inkscape" Exec exec inkscape
-+ "Blender" Exec exec blender
++ " GIMP" Exec exec gimp
++ " Inkscape" Exec exec inkscape
++ " Blender" Exec exec blender
 
 DestroyMenu dot
 AddToMenu dot
-+ ".fvwm2rc" Exec exec urxvt -e vim ~/.fvwm/.fvwm2rc
-+ ".gmrunrc" Exec exec urxvt -e vim ~/.gmrunrc
-+ ".irssi/config" Exec exec urxvt -e vim ~/.irssi/conf
-+ ".ncmpcpp/config" Exec exec urxvt -e vim ~/.ncmpcpp/config
-+ ".tmux.conf" Exec exec urxvt -e vim ~/.tmux.conf
-+ ".toprc" Exec exec urxvt -e vim ~/.toprc
-+ ".vimrc" Exec exec urxvt -e vim ~/.vimrc
-+ ".Xdefaults" Exec exec urxvt -e vim ~/.Xdefaults
-+ ".xinitrc" Exec exec urxvt -e vim ~/.xinitrc
-+ ".zshrc" Exec exec urxvt -e vim ~/.zshrc
++ " .fvwm2rc" Exec exec urxvt -e vim ~/.fvwm/.fvwm2rc
++ " .gmrunrc" Exec exec urxvt -e vim ~/.gmrunrc
++ " .irssi/config" Exec exec urxvt -e vim ~/.irssi/conf
++ " .ncmpcpp/config" Exec exec urxvt -e vim ~/.ncmpcpp/config
++ " .tmux.conf" Exec exec urxvt -e vim ~/.tmux.conf
++ " .toprc" Exec exec urxvt -e vim ~/.toprc
++ " .vimrc" Exec exec urxvt -e vim ~/.vimrc
++ " .Xdefaults" Exec exec urxvt -e vim ~/.Xdefaults
++ " .xinitrc" Exec exec urxvt -e vim ~/.xinitrc
++ " .zshrc" Exec exec urxvt -e vim ~/.zshrc
 
 
 MenuStyle * PopdownDelayed, PopdownDelay 300 
-MenuStyle * MenuColorset 8 
+MenuStyle * MenuColorset 9
 MenuStyle * ActiveColorset 7
 MenuStyle * TitleColorset 7
 
 MenuStyle * PopupAsSubmenu, HoldSubmenus, SubmenusRight
 MenuStyle "*" PopupOffset 5 400
 
-MenuStyle * BorderWidth 2
+MenuStyle * BorderWidth 0
 MenuStyle * ActiveFore, Hilight3DOff, HilightBack
-MenuStyle * SeparatorsLong, TrianglesRelief
+MenuStyle * SeparatorsLong, TrianglesSolid
 
 MenuStyle * Font "xft:M+ 1m:pixelsize=12"
+
+AddToFunc "StartFunction" "I" Module FvwmIconMan FvwmIconMan-Taskbar
+Style "FvwmIconMan"  NoTitle, !Handles, !Borders, Sticky
+*FvwmIconMan-Taskbar: ManagerGeometry 1280x1+0-0
+*FvwmIconMan-Taskbar: Resolution Desk
+*FvwmIconMan-Taskbar: PlainButton flat #e4e4e4
+*FvwmIconMan-Taskbar: MaxButtonWidth 150
+*FvwmIconMan-Taskbar: Background #202020
+*FvwmIconMan-Taskbar: FocusAndSelectButton flat #FF4EB1
+*FvwmIconMan-Taskbar: FocusButton flat #6DAEF8
+*FvwmIconMan-Taskbar: SelectButton flat #FF4EB1
+*FvwmIconMan-Taskbar: Format %t
+*FvwmIconMan-Taskbar: Sort none
+
+*FvwmIconMan-Taskbar: Font "xft:M+ 1m:pixelsize=12:antialias=True"
+
+Style FvwmIconMan-Taskbar TileCascadePlacement
+Style FvwmIconMan WindowListSkip,StaysOnTop
+
+
+
