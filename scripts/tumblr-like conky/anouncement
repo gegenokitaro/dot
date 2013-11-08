@@ -1,0 +1,35 @@
+double_buffer yes
+background yes
+own_window yes
+own_window_transparent yes
+own_window_type desktop
+own_window_hints undecorate,sticky,skip_taskbar,skip_pager,below
+#own_window_argb_visual yes
+#own_window_argb_value 170
+draw_borders no
+draw_graph_borders no
+draw_shades no
+gap_y 630
+gap_x 265
+default_color 8f8f8f
+alignment top_left
+update_interval 0.5
+own_window_colour 7cbd8b
+use_xft yes
+xftfont M+ 1m:italic:pixelsize=12
+use_spacer none 
+minimum_size 900 300
+#maximum_width 200
+border_inner_margin 0
+uppercase no
+
+TEXT
+${image ~/scripts/tumblr-like\ conky/temp0.png -p 0,0 -s 250x100} ${image ~/scripts/tumblr-like\ conky/temp1.png -p 280,0-s 250x200} ${image ~/scripts/tumblr-like\ conky/temp2.png -p 560,0 -s 250x200}
+${voffset 90}conky majestic
+\#archlinux \#conky
+${voffset 65}${goto 280}temporary truce ~ xfce4 with dzen2 ${goto 565}xmonad ~ tei toho project
+${goto 280}\#archlinux \#xfce4 \#dzen2 ${goto 565}\#archlinux \#xmonad \#dzen2
+
+
+
+${font lime:pixelsize=15}conky design by .ge. and inspired by Peter Vidani, within his awesome tumblr theme, Astronaut

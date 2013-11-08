@@ -1,0 +1,52 @@
+double_buffer yes
+background yes
+own_window yes
+own_window_transparent yes
+own_window_type desktop clicky
+own_window_hints undecorate,sticky,skip_taskbar,skip_pager,below
+own_window_argb_visual yes
+own_window_argb_value 250
+draw_borders no
+draw_graph_borders no
+border_outer_margin 0
+draw_shades no
+gap_y 280
+gap_x 270
+alignment top_left
+update_interval 0.5
+default_color ffffff
+color2 0088CC
+color3 929292
+color4 D8476A
+#default_shade_color 000000
+own_window_colour 000000
+use_xft yes
+xftfont M+ 1m:bold:pixelsize=16
+#use_spacer none
+minimum_size 800 300
+border_inner_margin 12
+uppercase yes
+draw_shades no
+draw_graph_borders no
+override_utf8_locale yes
+lua_load ~/scripts/tumblr-like\ conky/draw_bg.lua
+lua_draw_hook_pre draw_bg
+
+TEXT
+kagura ${color EDAA29}$nodename$color
+
+Sometimes, i just want to make a differences, make a change.
+But, i don't know what to do..
+
+Today's weather was ${color EDAA29}${execi 300 curl -s "http://weather.yahooapis.com/forecastrss?w=1044316&u=c" -o ~/.cache/weather.xml}\
+${execi 300 grep "yweather:condition" ~/.cache/weather.xml | grep -o "text=\"[^\"]*\"" | grep -o "\"[^\"]*\"" | grep -o "[^\"]*" | tr '[a-z]' '[A-Z]'} \
+$color and the temperature was \
+${color EDAA29}${execi 300 grep "yweather:condition" ~/.cache/weather.xml | cut -d "m" -f2 | cut -d "=" -f2 | cut -d '"' -f2}°$color celcius
+
+Sometimes, i think, i'm just a worthless human being that keep pestering about future.. 
+Do i have future? Fuck about future, i still have present.
+
+
+
+$alignr'And you can go fuck yourself, bitch'
+$alignr the ${color EDAA29}cat$color

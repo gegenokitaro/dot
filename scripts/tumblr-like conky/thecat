@@ -1,0 +1,26 @@
+double_buffer yes
+background yes
+own_window yes
+own_window_transparent yes
+own_window_type desktop
+own_window_hints undecorate,sticky,skip_taskbar,skip_pager,below
+#own_window_argb_visual yes
+#own_window_argb_value 170
+draw_borders no
+draw_graph_borders no
+draw_shades no
+gap_y 265
+gap_x 100
+alignment top_left
+update_interval 0.5
+own_window_colour 7cbd8b
+use_xft yes
+xftfont M+ 1m:pixelsize=14
+use_spacer none 
+minimum_size 140 140
+#maximum_width 200
+border_inner_margin 0
+uppercase no
+
+TEXT
+${image ~/scripts/tumblr-like\ conky/the-cat.png -s 140x136}
