@@ -9,8 +9,10 @@ I use
 +  feh > set wallpaper
 
 XFCE4 in da house yo..
-
 ![My Screenshot](xfce-4-temporary-truce.png)
+
+kiben gakuha - xmonad with colors
+![My Screenshot](kiben_gakuha.png)
 
 New Feature
 -----------
