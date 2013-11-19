@@ -1,0 +1,27 @@
+background no
+out_to_console yes
+out_to_x no
+update_interval 0.5
+total_run_times 0
+use_spacer none
+ 
+TEXT
+^fg(\#3c3c3c)^i(/home/kagura/.icons/xbm8x8/arrow_big_01.xbm)\
+^bg(\#3c3c3c)^fg(\#56D7FC)^i(/home/kagura/.icons/xbm8x8/shroom.xbm) kagura \
+^fg(\#101010)^i(/home/kagura/.icons/xbm8x8/arrow_big_01.xbm)^fg()^bg() \
+^fg(\#FFAB8F)^i(/home/kagura/.icons/xbm8x8/cat.xbm) $nodename \
+^fg(\#3c3c3c)^i(/home/kagura/.icons/xbm8x8/arrow_big_01.xbm)^fg()^bg()\
+^bg(\#3c3c3c)^fg(\#AEF554)^i(/home/kagura/.icons/xbm8x8/arch_10x10.xbm) $uptime_short \
+^fg(\#101010)^i(/home/kagura/.icons/xbm8x8/arrow_big_01.xbm)^bg()^fg() \
+^fg(\#F6ABE5)^i(/home/kagura/.icons/xbm8x8/cpu.xbm) ${cpu cpu0} ${cpu cpu1} ${cpu cpu2} ${cpu cpu3} \
+^fg(\#3c3c3c)^i(/home/kagura/.icons/xbm8x8/arrow_big_01.xbm)^fg()\
+^bg(\#3c3c3c)^fg(\#5DBFFF)^i(/home/kagura/.icons/xbm8x8/mem.xbm) ${mem} \
+^fg(\#101010)^i(/home/kagura/.icons/xbm8x8/arrow_big_01.xbm)^bg()^fg() \
+^fg(\#E65C73)^i(/home/kagura/.icons/xbm8x8/net_up_01.xbm) ${upspeedf enp2s0} \
+^fg(\#ffffff)^i(/home/kagura/.icons/xbm8x8/net_down_01.xbm) ${downspeedf enp2s0} \
+^fg(\#3c3c3c)^i(/home/kagura/.icons/xbm8x8/arrow_big_01.xbm)^fg()\
+^bg(\#3c3c3c)^fg(\#E0DA37) ^i(/home/kagura/.icons/xbm8x8/spkr_01.xbm) ${mpd_vol} \
+^fg(\#101010)^i(/home/kagura/.icons/xbm8x8/arrow_big_01.xbm)^bg() \
+^fg(\#49C259)^i(/home/kagura/.icons/xbm8x8/temp.xbm) ${exec sensors | grep 'Core 0' | cut -c16-22} \
+^fg(\#3c3c3c)^i(/home/kagura/.icons/xbm8x8/arrow_big_01.xbm)^fg()\
+^bg(\#3c3c3c)^fg(\#C768C8)^i(/home/kagura/.icons/xbm8x8/fs_02.xbm) ${exec sensors | grep 'fan1' | awk '{print $2}'} rpm ^bg()\
