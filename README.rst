@@ -2,7 +2,7 @@
 Dot oh.. DOT!! 
 =========
 
-![My Screenshot](the-cat.png)
+.. image:: the-cat.png
 
 :Origin: Me - the cat - Ge
 :Disclaimer: Clone it at your own risk.. i've warned you..
@@ -20,26 +20,26 @@ My Recycle Bin
 
 **XFCE4** in da house yo..
 
-![My Screenshot](xfce-4-temporary-truce.png)
+.. image:: xfce-4-temporary-truce.png
 
 **kiben gakuha** - xmonad with colors
 
-![My Screenshot](kiben_gakuha.png)
+.. image:: kiben_gakuha.png
 
 **Minimal as Fuck** - xmonad with shits
 
-![My Screenshot](minimalasfuck.png)
+.. image:: minimalasfuck.png
 
 New Feature
 -----------
 + **dzen2 mpd**
 
-.. ![My Screenshot](currentmpd.png "SPRING")
+.. image:: currentmpd.png 
 
 + **ncmpcpp - current**
 
-.. ![My Screenshot](ncmpcpp-current.png "SPRING")
+.. image::ncmpcpp-current.png 
 
 + **conky-majestic ~ not yet - wip**
 
-.. ![My Screenshot](conky-majestic.png "SPRING")
+.. image::conky-majestic.png 
