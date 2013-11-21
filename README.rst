@@ -38,8 +38,8 @@ New Feature
 
 + **ncmpcpp - current**
 
-.. image::ncmpcpp-current.png 
+.. image:: ncmpcpp-current.png 
 
 + **conky-majestic ~ not yet - wip**
 
-.. image::conky-majestic.png 
+.. image:: conky-majestic.png 
