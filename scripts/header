@@ -1,0 +1,34 @@
+double_buffer yes
+background yes
+own_window yes
+own_window_transparent no
+own_window_type desktop
+own_window_hints undecorate,sticky,skip_taskbar,skip_pager,below
+own_window_argb_visual yes
+own_window_argb_value 200
+draw_borders no
+draw_graph_borders no
+draw_shades no
+gap_y 135
+gap_x 0
+alignment bottom_left
+update_interval 0.5
+own_window_colour 000000
+use_xft yes
+xftfont M+ 1m:bold:pixelsize=14
+use_spacer none 
+minimum_size 1280 16
+maximum_width 1280
+#border_inner_margin 15
+uppercase yes
+override_utf8_locale yes
+
+TEXT
+${goto 20}${color C43761}[$color${exec cat /sys/class/dmi/id/sys_vendor}\
+ ${exec cat /sys/class/dmi/id/product_name}${color C43761}]$color\
+${goto 220}performance\
+${goto 360}capacity\
+${goto 540}net\
+${goto 670}rss : fakku\
+${goto 1006}music\
+ 

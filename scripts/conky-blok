@@ -1,0 +1,65 @@
+double_buffer yes
+background yes
+own_window yes
+own_window_transparent no
+own_window_type desktop
+own_window_hints undecorate,sticky,skip_taskbar,skip_pager,below
+own_window_argb_visual yes
+own_window_argb_value 210
+draw_borders no
+draw_graph_borders no
+draw_shades no
+gap_y 0
+gap_x 0
+alignment bottom_left
+update_interval 0.5
+own_window_colour 000000
+use_xft yes
+xftfont M+ 1m:bold:pixelsize=12
+use_spacer none 
+minimum_size 1280 150
+maximum_width 1280
+#border_inner_margin 15
+uppercase yes
+imlib_cache_size 100
+override_utf8_locale yes
+
+TEXT
+
+
+#baris pertama
+${goto 20}kernel $kernel\
+${goto 220}cpu  [${color #229BC8}${cpu cpu}$color]\
+${goto 360}home ${goto 395}${fs_bar 12,100 /}${goto 400}${color #229BC8}$fs_free / $fs_size$color\
+${goto 540}up${goto 575}[${color #229BC8}${upspeedf enp2s0}$color]\
+${goto 670}${scroll 60 ${rss http://feeds.feedburner.com/fakku 10 item_title 0}}\
+${goto 1100}$mpd_artist
+#baris kedua
+${goto 20}uptime ${color #229BC8}$uptime_short$color\
+${goto 220}cpu1 ${cpubar cpu0 12,60}\
+${goto 360}disk ${goto 395}${fs_bar 12,100 /home/kagura/HD}${goto 400}${color #229BC8}${fs_used /home/kagura/HD} / ${fs_size /home/kagura/HD}$color\
+${goto 540}down${goto 575}[${color #229BC8}${downspeedf enp2s0}$color]\
+${goto 670}${scroll 60 ${rss http://feeds.feedburner.com/fakku 10 item_title 1}}\
+${goto 1100}$mpd_title
+#baris ketiga
+${goto 20}$nodename\
+${goto 220}cpu2 ${cpubar cpu1 12,60}\
+${goto 360}\
+${goto 600}\
+${goto 670}${scroll 60 ${rss http://feeds.feedburner.com/fakku 10 item_title 2}}\
+${goto 1100}$mpd_album
+#baris keempat
+${goto 20}\
+${goto 220}cpu3 ${cpubar cpu2 12,60}\
+${goto 360}mem ${goto 395}$mem / $memmax\
+${goto 670}${scroll 60 ${rss http://feeds.feedburner.com/fakku 10 item_title 3}}\
+${goto 1100}${mpd_bar 6,100}
+#baris kelima
+${goto 20}${time %A, %d %B %Y}\
+${goto 220}cpu4 ${cpubar cpu3 12,60}\
+${goto 360}${membar 5,135}\
+${goto 540}iz: ${exec grep "yweather:condition" ~/.cache/weather.xml | grep -o "text=\"[^\"]*\"" | grep -o "\"[^\"]*\"" | grep -o "[^\"]*" | tr '[a-z]' '[A-Z]'} \
+${color 00ccff}${exec grep "yweather:condition" ~/.cache/weather.xml | cut -d "m" -f2 | cut -d "=" -f2 | cut -d '"' -f2}°$color\
+${goto 670}${scroll 60 ${rss http://feeds.feedburner.com/fakku 10 item_title 4}}\
+${goto 1100}$mpd_elapsed / $mpd_length
+${image /tmp/cover.jpg -p 1000,37 -s 80x80}${exec ~/scripts/albumart.sh}${execi 300 curl -s "http://weather.yahooapis.com/forecastrss?w=1044316&u=c" -o ~/.cache/weather.xml}
