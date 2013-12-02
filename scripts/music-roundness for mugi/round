@@ -1,0 +1,36 @@
+double_buffer yes
+background no
+own_window yes
+own_window_transparent yes
+own_window_type desktop
+own_window_hints undecorate,sticky,skip_taskbar,skip_pager,below
+#own_window_argb_visual yes
+#own_window_argb_value 210
+draw_borders no
+draw_graph_borders no
+draw_shades no
+gap_y 20
+gap_x 20
+alignment bottom_left
+update_interval 0.5
+own_window_colour 000000
+use_xft yes
+xftfont M+ 1m:bold:pixelsize=9
+use_spacer none 
+minimum_size  700 130
+maximum_width 700
+border_inner_margin 15
+uppercase yes
+override_utf8_locale yes
+imlib_cache_size 100
+lua_load ~/scripts/MUSIC/skrew/rings.lua
+lua_draw_hook_pre ring_stats
+
+TEXT
+${image /tmp/cover.jpg -p 17,17 -s 75x75}${exec ~/scripts/albumart.sh}
+${image ~/scripts/MUSIC/skrew/mugi-round-extend.png}
+${voffset -5}
+${goto 130}$mpd_artist
+${goto 130}${scroll 32 $mpd_title}
+${goto 130}${scroll 32 $mpd_album}
+ 
