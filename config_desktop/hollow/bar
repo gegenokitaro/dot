@@ -1,0 +1,21 @@
+background yes
+out_to_console yes
+out_to_x no
+update_interval 1
+use_xft yes 
+
+TEXT
+^i(/home/kagura/.icons/stlarch/headphone2.xbm) \
+^ca(1, mpc toggle)^ca(4, mpc next)^ca(5, mpc prev)\
+$mpd_artist >> \
+$mpd_title \
+^ca()^ca()^ca() \
+ ^i(/home/kagura/.icons/stlarch/uparrow4.xbm) ${upspeedf enp2s0}\
+ ^i(/home/kagura/.icons/stlarch/downarrow4.xbm) ${downspeedf enp2s0} \
+ ^i(/home/kagura/.icons/stlarch/cpu4.xbm) \
+ ${exec sh /home/kagura/percbar.sh | gdbar -h 1.5 -w 50 -fg "#FFB5CD" -bg "#5c5c5c"} \
+ ^i(/home/kagura/.icons/stlarch/vol5.xbm) \
+ ^ca(4,amixer set Master 5%+)^ca(5,amixer set Master 5%-)\
+${exec amixer sget Master | grep -m1 "%]" | cut -d "[" -f2 | cut -d "]" -f1 | gdbar -h 1.5 -w 50 -fg "#FFB5CD" -bg "#5c5c5c"} \
+^ca()^ca() \
+ ${time %R} 
