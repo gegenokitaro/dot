@@ -1,0 +1,49 @@
+urxvt256c.font:			xft:cure:pixelsize=10;xft:Terminess Powerline:pixelsize=8
+urxvt256c.background:		#161616
+urxvt256c.foreground:		#a5a5a5
+urxvt256c.foreground_bold:		#fedfed
+urxvt256c.depth:			24
+urxvt256c.scrollBar:		true
+urxvt256c.scrollBar_right:		true
+urxvt256c.scrollstyle:		plain
+urxvt256c.matcher.button:		1
+urxvt256c.transparent:		false
+urxvt256c.allow_bold:		true
+
+Xft.dpi:			96
+Xft.antialias:			true
+Xft.hinting:			full
+
+URxvt.geometry:			85x28
+URxvt.fading:			0
+URxvt.tintColor:		#ffffff
+URxvt.shading:			0
+URxvt.inheritPixmap:		false
+
+urxvt256c.cursorColor:		#a5a5a5
+
+! --- standard colors ---
+
+urxvt256c.color0: 			#161616
+urxvt256c.color8: 			#4f4f4f
+
+urxvt256c.color1: 			#c43761
+urxvt256c.color9: 			#e9b1c2
+
+urxvt256c.color2: 			#61c437
+urxvt256c.color10: 			#c2e9b1
+
+urxvt256c.color3: 			#c49a37
+urxvt256c.color11: 			#e9d8b1
+
+urxvt256c.color4: 			#3761c4
+urxvt256c.color12: 			#b1c2e9
+
+urxvt256c.color5: 			#9a37c4
+urxvt256c.color13: 			#d8b1e9
+
+urxvt256c.color6: 			#37c49a
+urxvt256c.color14: 			#b1e9d8
+
+urxvt256c.color7: 			#d3d3d3
+urxvt256c.color15: 			#f7f7f7
