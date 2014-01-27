@@ -1,0 +1,70 @@
+double_buffer yes
+background no
+own_window yes
+own_window_transparent yes
+own_window_type desktop
+own_window_hints undecorate,sticky,skip_taskbar,skip_pager,below
+#own_window_argb_visual yes
+#own_window_argb_value 210
+draw_borders no
+draw_graph_borders no
+draw_shades no
+gap_y 120
+gap_x 0
+alignment top_right
+update_interval 0.5
+own_window_colour 000000
+use_xft yes
+xftfont M+ 1m:bold:pixelsize=14
+use_spacer none 
+minimum_size  51 760
+maximum_width 335
+#border_inner_margin 15
+uppercase yes
+override_utf8_locale yes
+imlib_cache_size 100
+#lua_load ~/scripts/MUSIC/skrew/rings.lua
+#lua_draw_hook_pre ring_stats
+lua_load ~/.conky/tilt.lua
+lua_draw_hook_pre main_bars
+
+TEXT
+${image ~/.conky/tilt2.png}
+${voffset -25} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+${goto 20}HDD
+${color E83C3C}${font Wallpoet:pixelsize=15}${alignc}${fs_free_perc /}${font}$color
+
+${alignc}up
+${color E83C3C}${font Wallpoet:pixelsize=15}${alignc}${upspeedf enp2s0}$font$color
+
+${alignc}down
+${color E83C3C}${font Wallpoet:pixelsize=15}${alignc}${downspeedf enp2s0}$font$color
+
+
+
+
+
+
+
+
+
+
+
+${voffset -10}
+${goto 20}cpu

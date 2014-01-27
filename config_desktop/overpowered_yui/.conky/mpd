@@ -1,0 +1,40 @@
+double_buffer yes
+background no
+own_window yes
+own_window_transparent yes
+own_window_type desktop
+own_window_hints undecorate,sticky,skip_taskbar,skip_pager,below
+#own_window_argb_visual yes
+#own_window_argb_value 210
+draw_borders no
+draw_graph_borders no
+draw_shades no
+gap_y 60
+gap_x 85
+alignment bottom_left
+update_interval 0.5
+own_window_colour 000000
+use_xft yes
+xftfont M+ 1m:bold:pixelsize=14
+use_spacer none 
+minimum_size  400 130
+maximum_width 335
+#border_inner_margin 15
+uppercase yes
+override_utf8_locale yes
+imlib_cache_size 100
+#lua_load ~/scripts/MUSIC/skrew/rings.lua
+#lua_draw_hook_pre ring_stats
+lua_load ~/.conky/bar.lua
+lua_draw_hook_pre main_bars
+
+TEXT
+${image ~/.conky/blok.png}
+${image /tmp/cover.jpg -p 10,10 -s 80x80}${exec ~/scripts/albumart.sh}
+${voffset -50}
+${goto 110}$mpd_artist
+${goto 110}$mpd_title
+${goto 110}$mpd_album
+
+${voffset -5}
+${goto 260}${font M+ 1m:pixelsize=12}$mpd_elapsed / $mpd_length

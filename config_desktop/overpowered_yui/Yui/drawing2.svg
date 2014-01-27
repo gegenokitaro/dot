@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="drawing2.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.57753624"
+     inkscape:cx="431.17432"
+     inkscape:cy="650.86237"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1142"
+     inkscape:window-height="881"
+     inkscape:window-x="26"
+     inkscape:window-y="37"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#000000;stroke:none"
+       id="rect2985"
+       width="20"
+       height="20"
+       x="44.490513"
+       y="179.49014"
+       ry="0.0018713226" />
+    <rect
+       style="fill:#000000;stroke:none"
+       id="rect2985-5"
+       width="20"
+       height="20"
+       x="77.504463"
+       y="197.87465"
+       ry="10" />
+    <rect
+       style="fill:#000000;stroke:none"
+       id="rect2985-5-1"
+       width="10.024744"
+       height="20"
+       x="113.86996"
+       y="197.7484"
+       ry="0.0018713226" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="rect3791"
+       width="10"
+       height="20"
+       x="87.504463"
+       y="197.87465"
+       ry="0" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="rect3791-9"
+       width="10"
+       height="20"
+       x="-228.02695"
+       y="38.361053"
+       ry="0"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <path
+       style="fill:#5fbcd3;stroke:none"
+       d="m 54.490511,179.49015 c -5.54,0 -10,4.46 -10,10 0,5.54 4.46,10 10,10 5.54,0 10,-4.46 10,-10 l 0,-10 -10,0 z"
+       id="rect2985-5-6"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:#000000;stroke:none"
+       id="rect2985-0"
+       width="20"
+       height="20"
+       x="58.839287"
+       y="246.20146"
+       ry="0.0018713226"
+       inkscape:export-filename="/home/kagura/.fluxbox/styles/Mine/pixmaps/close.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#5fbcd3;stroke:none"
+       d="m 68.839285,248.16576 c -4.451786,0 -8.035714,3.58392 -8.035714,8.03571 0,4.45179 3.583928,8.03571 8.035714,8.03571 4.451786,0 8.035714,-3.58392 8.035714,-8.03571 l 0,-8.03571 -8.035714,0 z"
+       id="rect2985-5-6-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/kagura/.fluxbox/styles/Mine/pixmaps/close.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#000000;stroke:none"
+       id="rect2985-0-6"
+       width="18"
+       height="18"
+       x="27.630373"
+       y="238.94452"
+       ry="0.0016841904"
+       inkscape:export-filename="/home/kagura/.fluxbox/styles/Mine/pixmaps/close.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#5fbcd3;stroke:none;fill-opacity:1"
+       id="rect2985-0-6-7"
+       width="18"
+       height="18"
+       x="68.14286"
+       y="224.25504"
+       ry="0.0016841904"
+       inkscape:export-filename="/home/kagura/.fluxbox/styles/Mine/pixmaps/close.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 68.14286,224.25505 0.0221,10.00998 9.98788,-9.98789 -10.00998,-0.0221 z"
+       id="rect3964"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#5fbcd3;fill-opacity:1;stroke:none"
+       d="m 27.630374,238.94434 0,18 c 0,9.3e-4 0.03032,0 0.03125,0 l 17.96875,0 0,-18 -17.96875,0 10,0.0312 -10,9.96875 -0.03125,-10 z"
+       id="rect2985-0-6-7-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/kagura/.fluxbox/styles/Mine/pixmaps/close.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#000000;stroke:none"
+       id="rect2985-0-6-4"
+       width="18"
+       height="18"
+       x="5.9982934"
+       y="239.11693"
+       ry="0.0016841904"
+       inkscape:export-filename="/home/kagura/.fluxbox/styles/Mine/pixmaps/max.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#217867;fill-opacity:1;stroke:none"
+       d="m 5.9982942,239.11676 0,18 c 0,9.3e-4 0.03032,0 0.03125,0 l 17.9687498,0 0,-18 -17.9687498,0 9.9999998,0.0312 -9.9999998,9.96875 -0.03125,-10 z"
+       id="rect2985-0-6-7-6-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/kagura/.fluxbox/styles/Mine/pixmaps/max.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#000000;stroke:none"
+       id="rect2985-0-6-4-8"
+       width="18"
+       height="18"
+       x="27.11834"
+       y="261.46133"
+       ry="0.0016841904"
+       inkscape:export-filename="/home/kagura/.fluxbox/styles/Mine/pixmaps/max.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#005522;fill-opacity:1;stroke:none"
+       d="m 27.118341,261.46116 0,18 c 0,9.3e-4 0.03032,0 0.03125,0 l 17.96875,0 0,-18 -17.96875,0 10,0.0312 -10,9.96875 -0.03125,-10 z"
+       id="rect2985-0-6-7-6-8-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/kagura/.fluxbox/styles/Mine/pixmaps/min.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#282828;stroke:none;fill-opacity:1"
+       id="rect3120"
+       width="24"
+       height="24"
+       x="133.85258"
+       y="248.14484"
+       inkscape:export-filename="/home/kagura/.fluxbox/styles/Mine/pixmaps/close.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#5fbcd3;stroke:none"
+       d="m 141.88829,252.10913 c -4.45178,0 -8.03571,3.58392 -8.03571,8.03571 0,4.45179 3.58393,8.03571 8.03571,8.03571 4.45179,0 8.03572,-3.58392 8.03572,-8.03571 l 0,-8.03571 -8.03572,0 z"
+       id="rect2985-5-6-9-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/kagura/.fluxbox/styles/Mine/pixmaps/close.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#282828;fill-opacity:1;stroke:none"
+       id="rect3120-9"
+       width="24"
+       height="24"
+       x="125.43335"
+       y="288.61096"
+       inkscape:export-filename="/home/kagura/.fluxbox/styles/Mine/pixmaps/min.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#5fd3a7;stroke:none;fill-opacity:1"
+       d="m 133.46905,292.57527 c -4.45178,0 -8.03571,3.58392 -8.03571,8.03571 0,4.45179 3.58393,8.03571 8.03571,8.03571 4.45179,0 8.03572,-3.58392 8.03572,-8.03571 l 0,-8.03571 -8.03572,0 z"
+       id="rect2985-5-6-9-9-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/kagura/.fluxbox/styles/Mine/pixmaps/min.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#282828;fill-opacity:1;stroke:none"
+       id="rect3120-0"
+       width="24"
+       height="24"
+       x="108.59853"
+       y="319.52582"
+       inkscape:export-filename="/home/kagura/.fluxbox/styles/Mine/pixmaps/max.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#d3865f;stroke:none;fill-opacity:1"
+       d="m 116.63423,323.49012 c -4.45178,0 -8.03571,3.58392 -8.03571,8.03571 0,4.45179 3.58393,8.03571 8.03571,8.03571 4.45179,0 8.03572,-3.58392 8.03572,-8.03571 l 0,-8.03571 -8.03572,0 z"
+       id="rect2985-5-6-9-9-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/kagura/.fluxbox/styles/Mine/pixmaps/max.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#282828;fill-opacity:1;stroke:none"
+       id="rect3120-1"
+       width="24"
+       height="24"
+       x="12.564448"
+       y="288.03006"
+       inkscape:export-filename="/home/kagura/.fluxbox/styles/Mine/pixmaps/close.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#5fbcd3;stroke:none"
+       d="m 22.237493,293.92319 c -3.323995,0 -5.999996,2.67599 -5.999996,5.99999 0,3.32401 2.676001,6 5.999996,6 3.324003,0 6.000004,-2.67599 6.000004,-6 l 0,-5.99999 -6.000004,0 z"
+       id="rect2985-5-6-9-9-40"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/kagura/.fluxbox/styles/Mine/pixmaps/close.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#282828;fill-opacity:1;stroke:none"
+       id="rect3120-9-2"
+       width="24"
+       height="24"
+       x="42.100079"
+       y="288.03006"
+       inkscape:export-filename="/home/kagura/.fluxbox/styles/Mine/pixmaps/min.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#5fd3a7;fill-opacity:1;stroke:none"
+       d="m 51.773119,293.92321 c -3.323996,0 -5.999996,2.67599 -5.999996,5.99999 0,3.32401 2.676,6 5.999996,6 3.324003,0 6.000004,-2.67599 6.000004,-6 l 0,-5.99999 -6.000004,0 z"
+       id="rect2985-5-6-9-9-5-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/kagura/.fluxbox/styles/Mine/pixmaps/min.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#282828;fill-opacity:1;stroke:none"
+       id="rect3120-0-5"
+       width="24"
+       height="24"
+       x="71.178406"
+       y="288.03006"
+       inkscape:export-filename="/home/kagura/.fluxbox/styles/Mine/pixmaps/max.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#d3865f;fill-opacity:1;stroke:none"
+       d="m 80.851443,293.9232 c -3.323995,0 -5.999996,2.67599 -5.999996,5.99999 0,3.32401 2.676001,6 5.999996,6 3.324003,0 6.000004,-2.67599 6.000004,-6 l 0,-5.99999 -6.000004,0 z"
+       id="rect2985-5-6-9-9-4-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/kagura/.fluxbox/styles/Mine/pixmaps/max.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#282828;fill-opacity:1;stroke:none"
+       d="M 212 193.96875 C 207.49617 193.96875 203.875 197.58992 203.875 202.09375 L 203.875 289.3125 C 203.875 293.81633 207.49617 297.4375 212 297.4375 L 438.84375 297.4375 L 438.84375 300.15625 C 438.84375 306.95991 444.32134 312.4375 451.125 312.4375 L 529.78125 312.4375 C 536.58491 312.4375 542.0625 306.95991 542.0625 300.15625 L 542.0625 289.3125 L 542.0625 283.5 L 542.0625 202.09375 C 542.0625 197.58992 538.44133 193.96875 533.9375 193.96875 L 212 193.96875 z M 533.21875 199 C 535.41637 199 537.1875 200.77113 537.1875 202.96875 C 537.1875 205.16637 535.41637 206.9375 533.21875 206.9375 C 531.02113 206.9375 529.21875 205.16637 529.21875 202.96875 C 529.21875 200.77113 531.02113 199 533.21875 199 z "
+       id="rect4002"
+       inkscape:export-filename="/home/kagura/.conky/blok.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#282828;fill-opacity:1;stroke:none"
+       d="M 650.1875 16.28125 C 634.27026 16.28125 621.46875 25.168112 621.46875 36.21875 L 621.46875 727 C 621.46875 738.05064 634.27026 746.96875 650.1875 746.96875 C 660.55881 746.969 670.9554 746.96875 681.34375 746.96875 L 681.34375 727 L 681.34375 36.21875 L 681.34375 16.28125 C 670.9681 16.281196 660.5402 16.28125 650.1875 16.28125 z M 676.28125 18.5 C 677.74555 18.5 678.9375 19.69195 678.9375 21.15625 C 678.9375 22.62055 677.74555 23.8125 676.28125 23.8125 C 674.81695 23.8125 673.625 22.62055 673.625 21.15625 C 673.625 19.69195 674.81695 18.5 676.28125 18.5 z "
+       id="rect4012"
+       inkscape:export-filename="/home/kagura/.conky/tilt.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#cccccc;fill-opacity:1;stroke:none"
+       id="path4036-2"
+       sodipodi:cx="533.08344"
+       sodipodi:cy="204.147"
+       sodipodi:rx="3.6794229"
+       sodipodi:ry="3.6794229"
+       d="m 536.76286,204.147 a 3.6794229,3.6794229 0 1 1 -7.35885,0 3.6794229,3.6794229 0 1 1 7.35885,0 z"
+       transform="matrix(2.0596151,0,0,2.0596151,-402.28602,-395.86779)" />
+    <text
+       xml:space="preserve"
+       style="font-size:41.35154724px;font-style:normal;font-weight:normal;line-height:119.00000572%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-351.73828"
+       y="583.91376"
+       id="text4062"
+       sodipodi:linespacing="119.00001%"
+       transform="matrix(0,-0.88280827,1.1327488,0,0,0)"
+       inkscape:export-filename="/home/kagura/.conky/tilt.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4064"
+         x="-351.73828"
+         y="583.91376"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:119.00000572%;letter-spacing:0px;fill:#333333;font-family:Wallpoet;-inkscape-font-specification:Wallpoet">Source Mage</tspan></text>
+    <path
+       style="fill:#282828;fill-opacity:1;stroke:none"
+       d="M 239.71875 345.4375 C 224.49673 345.96921 212.46875 354.66969 212.46875 365.375 L 212.46875 1056.1562 C 212.46875 1067.207 225.27026 1076.125 241.1875 1076.125 C 251.55881 1076.1252 261.9554 1076.125 272.34375 1076.125 L 272.34375 1056.1562 L 272.34375 365.375 L 272.34375 345.4375 C 261.9681 345.43745 251.5402 345.4375 241.1875 345.4375 C 240.69009 345.4375 240.20978 345.42035 239.71875 345.4375 z M 267.28125 347.65625 C 268.74555 347.65625 269.9375 348.8482 269.9375 350.3125 C 269.9375 351.7768 268.74555 352.96875 267.28125 352.96875 C 265.81695 352.96875 264.625 351.7768 264.625 350.3125 C 264.625 348.8482 265.81695 347.65625 267.28125 347.65625 z M 235.0625 360.84375 L 240.40625 360.84375 L 243.625 365.125 L 243.625 370.96875 L 240.03125 370.96875 L 240.03125 365.46875 L 236.1875 365.46875 L 236.1875 370.96875 L 231.78125 370.96875 L 231.78125 365.125 L 235.0625 360.84375 z M 245.9375 360.84375 L 249.21875 360.84375 L 252.4375 365.125 L 252.4375 370.96875 L 247.46875 370.96875 L 247.46875 365.625 L 245.9375 365.625 L 245.9375 360.84375 z M 231.78125 372.75 L 236.1875 372.75 L 236.1875 378.28125 L 240.03125 378.28125 L 240.03125 372.75 L 243.625 372.75 L 243.625 378.28125 L 247.46875 378.28125 L 247.46875 372.75 L 252.4375 372.75 L 252.4375 378.5625 L 249.21875 382.875 L 235.0625 382.875 L 231.78125 378.5625 L 231.78125 372.75 z M 231.84375 386.46875 L 258.34375 386.46875 L 261.5625 390.71875 L 261.5625 396.53125 L 256.65625 396.53125 L 256.65625 391.09375 L 249.8125 391.09375 L 249.8125 396.53125 L 246.03125 396.53125 L 246.03125 391.09375 L 236.34375 391.09375 L 236.34375 396.53125 L 231.84375 396.53125 L 231.84375 386.46875 z M 231.84375 398.375 L 236.34375 398.375 L 236.34375 403.78125 L 246.03125 403.78125 L 246.03125 398.375 L 249.8125 398.375 L 249.8125 404.125 L 246.53125 408.40625 L 235.0625 408.40625 L 231.84375 404.125 L 231.84375 398.375 z M 256.65625 398.375 L 261.5625 398.375 L 261.5625 404.125 L 258.34375 408.40625 L 254.5625 408.40625 L 254.5625 403.6875 L 256.65625 403.6875 L 256.65625 398.375 z M 235.125 411.96875 L 252.5 411.96875 L 252.5 421.96875 L 247.53125 421.96875 L 247.53125 416.59375 L 243.6875 416.59375 L 243.6875 422.09375 L 240.0625 422.09375 L 240.0625 416.59375 L 236.25 416.59375 L 236.25 422.09375 L 231.84375 422.09375 L 231.84375 416.125 L 235.125 411.96875 z M 231.84375 423.71875 L 236.25 423.71875 L 236.25 429.21875 L 238.34375 429.21875 L 238.34375 433.84375 L 235.125 433.84375 L 231.84375 429.6875 L 231.84375 423.71875 z M 240.0625 423.71875 L 243.6875 423.71875 L 243.6875 429.21875 L 247.53125 429.21875 L 247.53125 423.71875 L 252.5 423.71875 L 252.5 429.6875 L 249.25 433.84375 L 243.3125 433.84375 L 240.0625 429.6875 L 240.0625 423.71875 z M 225.5 437.53125 L 252.4375 437.53125 L 252.4375 442.125 L 233.09375 442.125 L 241.65625 449.21875 L 234.59375 449.21875 L 225.5 441.65625 L 225.5 437.53125 z M 234.59375 451 L 241.65625 451 L 233.09375 458.09375 L 252.4375 458.09375 L 252.4375 462.6875 L 225.5 462.6875 L 225.5 458.53125 L 234.59375 451 z M 235.0625 480.21875 L 240.40625 480.21875 L 243.625 484.53125 L 243.625 490.375 L 240.03125 490.375 L 240.03125 484.84375 L 236.1875 484.84375 L 236.1875 490.375 L 231.78125 490.375 L 231.78125 484.53125 L 235.0625 480.21875 z M 245.9375 480.21875 L 249.21875 480.21875 L 252.4375 484.53125 L 252.4375 490.375 L 247.46875 490.375 L 247.46875 485 L 245.9375 485 L 245.9375 480.21875 z M 231.78125 492.15625 L 236.1875 492.15625 L 236.1875 497.65625 L 240.03125 497.65625 L 240.03125 492.15625 L 243.625 492.15625 L 243.625 497.65625 L 247.46875 497.65625 L 247.46875 492.15625 L 252.4375 492.15625 L 252.4375 497.96875 L 249.21875 502.28125 L 235.0625 502.28125 L 231.78125 497.96875 L 231.78125 492.15625 z M 235.03125 508.09375 L 238.28125 508.09375 L 238.28125 512.6875 L 236.1875 512.6875 L 236.1875 518.21875 L 231.78125 518.21875 L 231.78125 512.25 L 235.03125 508.09375 z M 245.9375 508.09375 L 249.21875 508.09375 L 252.4375 512.25 L 252.4375 518.21875 L 247.46875 518.21875 L 247.46875 512.6875 L 245.9375 512.6875 L 245.9375 508.09375 z M 231.78125 519.84375 L 236.1875 519.84375 L 236.1875 525.375 L 247.46875 525.375 L 247.46875 520 L 252.4375 520 L 252.4375 525.84375 L 249.21875 530 L 235.03125 530 L 231.78125 525.84375 L 231.78125 519.84375 z M 234.5625 533.3125 L 238.34375 533.3125 L 238.34375 538.0625 L 231.96875 538.0625 L 234.5625 533.3125 z M 231.96875 539.6875 L 236.34375 539.6875 L 236.34375 545.1875 L 252.4375 545.1875 L 252.4375 549.75 L 231.96875 549.75 L 231.96875 545.1875 L 234 545.1875 L 231.96875 539.6875 z M 231.96875 557 L 252.4375 557 L 252.4375 561.5625 L 250.34375 561.5625 L 252.4375 567.03125 L 247.53125 567.03125 L 247.53125 561.5625 L 231.96875 561.5625 L 231.96875 557 z M 247.53125 568.71875 L 252.4375 568.71875 L 252.4375 574.625 L 249.21875 578.75 L 231.96875 578.75 L 231.96875 574.15625 L 247.53125 574.15625 L 247.53125 568.71875 z M 235.0625 585 L 249.15625 585 L 252.40625 589.28125 L 252.40625 595.09375 L 247.375 595.09375 L 247.375 589.5625 L 236.25 589.5625 L 236.25 595.09375 L 231.84375 595.09375 L 231.84375 589.28125 L 235.0625 585 z M 231.84375 596.40625 L 236.25 596.40625 L 236.25 601.875 L 247.375 601.875 L 247.375 596.40625 L 252.40625 596.40625 L 252.40625 602.15625 L 249.15625 606.4375 L 235.0625 606.4375 L 231.84375 602.15625 L 231.84375 596.40625 z M 228.75 611.96875 L 234.21875 611.96875 L 234.21875 616.5625 L 231.03125 616.5625 L 231.03125 623.78125 L 225.5 623.78125 L 225.5 616.25 L 228.75 611.96875 z M 239.5625 611.96875 L 249.25 611.96875 L 252.4375 616.25 L 252.4375 623.625 L 247.15625 623.625 L 247.15625 616.5625 L 241.8125 616.5625 L 241.8125 623.78125 L 236.34375 623.78125 L 236.34375 616.25 L 239.5625 611.96875 z M 225.5 625.4375 L 231.03125 625.4375 L 231.03125 632.65625 L 236.34375 632.65625 L 236.34375 625.4375 L 241.8125 625.4375 L 241.8125 632.9375 L 238.625 637.09375 L 228.75 637.09375 L 225.5 632.9375 L 225.5 625.4375 z M 247.15625 625.4375 L 252.4375 625.4375 L 252.4375 632.84375 L 249.25 637.09375 L 243.90625 637.09375 L 243.90625 632.5 L 247.15625 632.5 L 247.15625 625.4375 z "
+       id="rect4012-0"
+       inkscape:export-filename="/home/kagura/.conky/tilt2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+</svg>

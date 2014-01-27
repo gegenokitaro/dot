@@ -1,0 +1,75 @@
+urxvt.font:		xft:Terminess Powerline:pixelsize=12
+urxvt.termName:         rxvt
+urxvt.background:       #282828
+!urxvt.background:	rgba:0000/0000/0000/dddd
+!urxvt.background:	#b5b5b5
+!urxvt.foreground:	#2d2d2d
+!urxvt,foreground_bold:	#161616
+!urxvt.foreground:       #f0f0f0
+urxvt.foreground_bold: #fedfed
+urxvt.depth:		24
+urxvt.matcher.button:   1
+urxvt.transparent:    false
+urxvt.allow_bold:    true
+
+Xft.dpi:                96
+Xft.antialias:         true
+Xft.hinting:            full
+
+URxvt.geometry: 91x26
+URxvt.fading:        0
+URxvt.tintColor:     
+URxvt.shading:        0
+URxvt.inheritPixmap:     false
+urxvt.scrollBar: false
+urxvt.scrollBar_right: false
+urxvt.scrollstyle: plain
+urxvt.scrollColor: #F1DBDC
+
+!urxvt.background: #464646
+!urxvt.foreground: #f0f0f0
+urxvt.cursorColor: #a5a5a5
+
+! black
+
+URxvt.color0  : #393939
+URxvt.color8  : #474747
+
+! red
+
+URxvt.color1  : #b84130
+URxvt.color9  : #c06d68
+
+! green
+
+URxvt.color2  : #5a9f50
+URxvt.color10 : #75c68f
+
+! yellow
+
+URxvt.color3  : #c99135
+URxvt.color11 : #38bf82
+
+! blue
+
+URxvt.color4  : #547599
+URxvt.color12 : #7b9cc6
+
+! magenta
+
+URxvt.color5  : #9f5079
+URxvt.color13 : #c67b9c
+
+! cyan
+
+URxvt.color6  : #3d7982
+URxvt.color14 : #7bc2c6
+
+! white
+
+URxvt.color7  : #D3D3D7D7CFCF
+URxvt.color15 : #EEEEEEEEECEC
+
+URxvt*foreground:#CBCBCB
+URxvt*background:#222222
+
