@@ -1,0 +1,12 @@
+background yes
+out_to_console yes
+out_to_x no
+update_interval 1
+use_xft yes 
+
+TEXT
+ ^i(/home/kagura/.icons/xbm8x8/net_up_03.xbm)  ${upspeedf wlp6s0}   \
+ ^i(/home/kagura/.icons/xbm8x8/net_down_03.xbm)  ${downspeedf wlp6s0}    \
+ ^i(/home/kagura/.icons/xbm8x8/spkr_01.xbm)   ${exec amixer sget Master | grep -m1 "%]" | cut -d "[" -f2 | cut -d "]" -f1 | dzen2-gdbar -w 50 -h 1}    \
+ ^i(/home/kagura/.icons/xbm8x8/bat_full_02.xbm)  ${exec acpi | awk '{print $4}' | sed 's/,//g' | dzen2-gdbar -w 50 -h 1}    \
+ ^i(/home/kagura/.icons/xbm8x8/clock.xbm)  ${time %R} 
