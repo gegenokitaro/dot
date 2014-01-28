@@ -1,0 +1,3 @@
+sh /home/kagura/scripts/flux-bar.sh &
+conky -c /home/kagura/scripts/conky-blok &
+sleep 0.1 && conky -c /home/kagura/scripts/header &
