@@ -1,0 +1,371 @@
+
+gtk-icon-sizes = "panel-menu=18,18:panel=18,18:gtk-button=18,18:gtk-large-toolbar=18,18"
+gtk-color-scheme = "fg_color:#151515\nbg_color:#e5e5e5\nbase_color:#e5e5e5\ntext_color:#151515\nselected_bg_color:#555555\nselected_fg_color:#151515\ntooltip_bg_color:#e5e5e5\ntooltip_fg_color:#151515"
+
+
+style "default"
+{
+  xthickness = 1
+  ythickness = 1
+
+
+  GtkWidget::interior_focus = 1
+  GtkButton::default_border = { 3, 3, 3, 3 }
+  GtkButton::default_outside_border = { 3, 3, 3, 3 }
+  GtkRange::trough_border = 0
+
+  GtkWidget::focus_padding = 1
+
+  GtkPaned::handle_size = 7
+  
+  GtkRange::slider_width =4
+  GtkRange::stepper_size = 15
+  GtkRange::stepper_spacing = 10
+
+  GtkVScale::slider_length 			= 21
+  GtkVScale::slider_width 			= 8
+  GtkHScale::slider_length 			= 21
+  GtkHScale::slider_width 			= 8
+
+  GtkCheckButton::indicator_size = 13
+  GtkRadioButton::indicator_size = 13
+  GtkMenuBar::internal-padding = 0
+
+  GtkScrollbar::min_slider_length = 30
+  GtkScrollbar::trough-border = 2
+  GtkScrollbar::has-backward-stepper = 0
+  GtkScrollbar::has-forward-stepper = 0
+  GtkScrollbar::trough-side-details = 0
+  GtkScrollbar::default_border = { 0, 0, 0, 0 }
+  GtkScrollbar::default_outside_border = { 0, 0, 0, 0 }
+  
+  WnckTasklist::fade-opacity = 1
+  WnckTasklist::fade-overlay-rect = 0
+  WnckTasklist::fade-loop-time = 2
+
+  GtkButton::child_displacement_x = 0
+  GtkButton::child_displacement_y = 1
+
+  GtkMenuItem::selected_shadow_type = GTK_SHADOW_IN
+  GtkMenuBar::shadow_type = none 
+
+  GtkRange::activate-slider = 1
+
+  # The following line hints to gecko (and possibly other appliations)  
+  # that the entry should be drawn transparently on the canvas.
+  # Without this, gecko will fill in the background of the entry.           
+  GtkEntry::honors-transparent-bg-hint = 1
+
+
+  # color definitions
+  bg[NORMAL]		= @bg_color
+  bg[PRELIGHT]		= shade (1.1, @bg_color)
+  bg[ACTIVE]		= mix (0.8, @bg_color,@fg_color)
+  bg[SELECTED]		= mix (0.65, @selected_bg_color, @bg_color)
+  bg[INSENSITIVE]	= shade (0.85, @bg_color)
+
+  fg[NORMAL]		= @fg_color
+  fg[PRELIGHT]		= @fg_color
+  fg[ACTIVE]		= @fg_color
+  fg[SELECTED]		= @selected_fg_color
+  fg[INSENSITIVE]	= mix (0.4, @fg_color, shade (0.85, @bg_color)) #shaded to bg[INSENSITIVE]
+
+  base[NORMAL]		= @base_color
+  base[PRELIGHT]	= @base_color
+  base[ACTIVE]		= mix (0.45, @selected_bg_color, @base_color)
+  base[SELECTED]	= @selected_bg_color
+  base[INSENSITIVE]	= mix (0.95, @base_color, @text_color)
+
+  text[NORMAL]		= @text_color
+  text[PRELIGHT]	= @text_color
+  text[ACTIVE]		= @selected_fg_color
+  text[SELECTED]	= @selected_fg_color
+  text[INSENSITIVE]	= mix (0.5, @text_color, @base_color)
+
+  engine "industrial"
+  {
+
+  }
+}
+
+style "murrine"
+{
+
+	xthickness = 1
+	ythickness = 1
+  engine "murrine"   {
+		rgba = TRUE
+		menubarstyle = 0
+		menuitemstyle = 0
+		menustyle = 0
+			}
+}
+style "hc-range"
+{
+  xthickness = 2
+  ythickness = 2
+
+  bg[NORMAL]		= mix (0.7, @fg_color, @bg_color)	#slider filling
+  bg[ACTIVE]		= @bg_color				#range-bar filling
+  fg[NORMAL]		= mix (0.7, @fg_color, @bg_color)	#slider border
+  fg[ACTIVE]		= mix (0.7, @fg_color, @bg_color)	#range-bar border
+
+  engine "hcengine"	{
+edge_thickness = 1
+			}
+}
+style "hc-button"
+{
+  xthickness = 1
+  ythickness = 1
+
+  fg[NORMAL]		= mix (0.6, @fg_color, @bg_color)
+  fg[ACTIVE]		= mix (0.6, @fg_color, @bg_color)
+  fg[INSENSITIVE]	= mix (0.3, @fg_color, @bg_color)
+  fg[PRELIGHT]		= mix (0.6, @fg_color, @bg_color)
+  fg[SELECTED]		= mix (0.6, @fg_color, @bg_color)
+
+
+  engine "hcengine"	{
+edge_thickness = 1
+			}
+}
+style "industrial-invisible"
+{
+  xthickness = 0
+  ythickness = 0
+
+  engine "industrial"	{
+			contrast = 0
+			}
+}
+
+
+style "hc-progress"
+{
+  xthickness = 2
+  ythickness = 2
+
+  bg[NORMAL]		= @bg_color			  #backgrund
+  bg[PRELIGHT]		= mix (0.7, @fg_color, @bg_color) #progress filling
+  fg[NORMAL]		= mix (0.7, @fg_color, @bg_color) #borders
+  fg[PRELIGHT]		= mix (0.7, @fg_color, @bg_color) #borders on progress
+
+  engine "hcengine"	{
+edge_thickness = 1
+ 			}
+}
+
+style "hc-scrollbar"
+{
+  bg[NORMAL]		= mix (0.7, @fg_color, @bg_color)		#slider filling
+  bg[ACTIVE]		= @bg_color					#scrollbar filling
+  fg[NORMAL]		= mix (0.7, @fg_color, @bg_color)		#slider borders
+  fg[ACTIVE]		= @bg_color #mix (0.4, @fg_color, @bg_color)	#scrollbar borders
+
+  bg[PRELIGHT]		= mix (0.7, @fg_color, @bg_color)		#slider filling @ mouseover
+  fg[PRELIGHT]		= mix (0.7, @fg_color, @bg_color)		#slider border @ mouseover
+
+  xthickness = 0
+  ythickness = 0
+
+  engine "hcengine"	{
+edge_thickness = 1
+			}
+}
+
+style "industrial-menuitem"
+{
+  xthickness = 1
+  ythickness = 1
+
+  bg[PRELIGHT]  = @selected_bg_color
+  bg[SELECTED]  = @selected_bg_color
+  fg[PRELIGHT]  = @selected_fg_color
+  fg[SELECTED]  = @selected_fg_color
+}
+
+style "industrial-checkbutton"
+{
+  base[NORMAL]		= @bg_color
+  text[NORMAL]		= @fg_color
+}
+
+style "industrial-tooltips"
+{
+  xthickness = 0
+  ythickness = 0
+
+  bg[NORMAL] = @tooltip_bg_color
+  fg[NORMAL] = @tooltip_fg_color
+}
+
+style "treeview"
+{
+  xthickness = 1
+  ythickness = 1
+
+  bg[NORMAL]		= @base_color
+  bg[PRELIGHT]		= @base_color
+  bg[ACTIVE]		= @base_color
+
+  fg[NORMAL]		= @text_color
+  fg[PRELIGHT]		= @text_color
+  fg[ACTIVE]		= @text_color
+}
+
+style "treeview-button"
+{
+  xthickness = 1
+  ythickness = 1
+
+  fg[NORMAL]		= mix (0.5, @fg_color, shade (0.85, @bg_color))
+  fg[PRELIGHT]		= mix (0.5, @fg_color, shade (0.85, @bg_color))
+  fg[ACTIVE]		= mix (0.5, @fg_color, shade (0.85, @bg_color))
+  
+engine "industrial"
+  {
+    # Set a hint to disable backward compatibility fallbacks.
+    hint = "use-hints"
+    rounded_buttons = FALSE
+  }
+}
+
+
+style "industrial-druid"
+{
+  bg[SELECTED] = @selected_bg_color
+}
+
+style "metacity-frame"
+{
+
+	# Normal base color
+ 	bg[NORMAL]      = @bg_color
+
+	# Unfocused title background color
+	bg[INSENSITIVE]	= @bg_color
+
+	# Unfocused title text color
+	fg[INSENSITIVE]	= mix (0.2, @fg_color, @bg_color)
+
+	# Focused icon color
+	fg[NORMAL]	= mix (0.8, @fg_color, @bg_color)
+
+	# Focused title background color
+	bg[SELECTED]	= @selected_bg_color
+	
+	# Focused title text color
+	fg[SELECTED]	= @selected_fg_color
+}
+
+style "industrial-comboboxentry"
+{
+	engine "industrial"
+	{
+		hint	= "comboboxentry"
+	}
+}
+
+# default style
+class "GtkWidget"	style "default"
+
+# wide
+class "PanelApplet*"	style "murrine"
+class "PanelToplevel"	style "murrine"
+class "GtkNotebook"	style "default"
+class "GtkButton"	style "hc-button"
+class "GtkRange"	style "hc-range"
+class "GtkMenu"		style "default"
+class "GtkStatusbar"	style "default"
+class "GtkEntry"	style "hc-button"
+class "GtkSpinButton"	style "default"
+class "GtkScrollbar"	style "hc-scrollbar"
+class "GtkProgress"	style "hc-progress"
+class "GtkCheckButton"	style "default"
+class "GtkBin"		style "default"
+class "GtkHandleBox"	style "industrial-invisible"
+class "GtkToolbar"	style "industrial-invisible"
+class "GtkMenuItem"	style "default"
+class "GtkFrame"	style "industrial-invisible"
+class "GtkLabel*"    style "murrine"
+class "GtkCellView"    style "murrine"
+class "GtkArrow"    style "murrine"
+
+widget_class "*GtkComboBox*"	style "murrine"
+widget_class "*<GtkCombo>.*"	style "murrine"
+widget_class "*<GtkHBox>"	style "murrine"
+widget_class "*<GtkBox>"	style "murrine"
+
+# treeview
+widget_class "*GtkTreeView*" 			style "treeview"
+widget_class "*.<GtkTreeView>.GtkButton"	style "treeview-button"
+widget_class "*.<GtkList>.GtkButton"		style "hc-button"
+widget_class "*.<GtkCList>.GtkButton"		style "default"
+widget_class "*.<ETree>.*"			style "default"
+widget_class "*.<ETable>.*"			style "default"
+
+# menuitems and interior
+widget_class "*<GtkMenuItem>*"			style "industrial-menuitem"
+widget_class "*<GtkSeparatorMenuItem>*"		style "industrial-menuitem"
+widget_class "*.<GtkProgress>"			style "hc-progress"
+
+# druide
+widget_class "*GnomeDruidPage*"			style "industrial-druid"
+widget "gtk-tooltip*"				style "industrial-tooltips"
+widget "*.tasklist-button"			style "default"
+class "MetaFrames"				style "metacity-frame"
+
+style "default-ffox"
+{
+	GtkScrollbar::has-forward-stepper = 0
+}
+style "default-ooo"
+{
+	GtkScrollbar::has-forward-stepper = 1
+}
+widget "GtkWindow.GtkFixed.Gtk?Scroll*"   style "default-ooo"
+widget "*Mozilla*Fixed*Scroll*"   style "default-ffox"
+
+# Work around for http://bugzilla.gnome.org/show_bug.cgi?id=382646
+# Note that the work around assumes that the combobox is _not_ in
+# appears-as-list mode.
+# This style does not affect GtkComboBoxEntry, it does have an effect
+# on comboboxes in appears-as-list mode though.
+style "industrial-text-is-fg-color-workaround"
+{
+	text[NORMAL]        = @fg_color
+	text[PRELIGHT]      = @fg_color
+	text[SELECTED]      = @selected_fg_color
+	text[ACTIVE]        = @fg_color
+	text[INSENSITIVE]   = darker (@bg_color)
+}
+widget_class "*.<GtkComboBox>.<GtkCellView>"   style "industrial-text-is-fg-color-workaround"
+
+style "industrial-menuitem-text-is-fg-color-workaround"
+{
+	text[NORMAL]        = @fg_color
+	text[PRELIGHT]      = @selected_fg_color
+	text[SELECTED]      = @selected_fg_color
+	text[ACTIVE]        = @fg_color
+	text[INSENSITIVE]   = darker (@bg_color)
+}
+widget "*.gtk-combobox-popup-menu.*"   style "industrial-menuitem-text-is-fg-color-workaround"
+
+# Work around the usage of GtkLabel inside GtkListItems to display text.
+# This breaks because the label is shown on a background that is based on the  GtkScrollbar::
+# base color set.
+style "industrial-fg-is-text-color-workaround"
+{
+	fg[NORMAL]      = @text_color
+	fg[PRELIGHT]    = @text_color
+	fg[ACTIVE]      = @selected_fg_color
+	fg[SELECTED]    = @selected_fg_color
+	fg[INSENSITIVE] = darker (@bg_color)
+}
+widget_class "*<GtkListItem>*" style "industrial-fg-is-text-color-workaround"
+# The same problem also exists for GtkCList and GtkCTree
+# Only match GtkCList and not the parent widgets, because that would also change the headers.
+widget_class "*<GtkCList>" style "industrial-fg-is-text-color-workaround"
+
+

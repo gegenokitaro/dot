@@ -1,0 +1,75 @@
+# mookid_Openbox by bl1nk (bl1nks.deviantart.com)
+# mookid GTK & Emerald by aMADme (http://amadme.deviantart.com/)
+
+# Window geometry
+padding.width: 2
+padding.height: 0
+border.width: 3
+window.client.padding.width: 0
+window.client.padding.height: 0
+window.handle.width: 0
+
+#Menu geometry
+menu.border.width: 3
+menu.overlap.x: -5
+menu.overlap.y: 0
+
+# Border colors
+window.*.border.color: #303030
+menu.border.color: #303030
+window.active.client.color: #D8E18D
+window.inactive.client.color: #D8E18D
+
+# Text shadows
+window.active.label.text.font: shadow=n
+window.inactive.label.text.font: shadow=n
+menu.items.font: shadow=n
+menu.title.text.font: shadow=n
+
+# Window title justification
+window.label.text.justify: right
+
+# Window
+window.*.title.bg: flat
+window.*.title.bg.color: #303030
+
+window.*.label.bg: Parentrelative
+window.active.label.text.color: #80C31B
+window.inactive.label.text.color: #555
+
+window.*.button.unpressed.bg: Flat
+window.*.button.unpressed.bg.color: #303030
+window.*.button.unpressed.image.color: #303030
+
+window.*.button.pressed.bg: Flat
+window.*.button.pressed.bg.color: #303030
+window.*.button.pressed.image.color: #999
+
+window.*.button.disabled.bg: Flat
+window.*.button.disabled.bg.color: #303030
+window.*.button.disabled.image.color: #F0F0F0
+
+window.*.button.hover.bg: Flat
+window.*.button.hover.bg.color: #303030
+window.*.button.hover.image.color: #666
+
+# Menus
+menu.title.bg: Flat
+menu.title.bg.color: #303030
+menu.title.text.color: #80C31B
+menu.title.text.justify: center
+
+menu.separator.color: #303030
+menu.separator.width: 1
+menu.separator.padding.width: 0
+menu.separator.padding.height: 5
+
+menu.items.bg: Flat Solid
+menu.items.bg.color: #303030
+menu.items.text.color: #777
+menu.items.disabled.text.color: #303030
+
+menu.items.active.bg: Flat
+menu.items.active.bg.color: #303030
+menu.items.active.text.color: #999
+menu.items.active.disabled.text.color: #303030

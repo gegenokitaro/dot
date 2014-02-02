@@ -1,0 +1,102 @@
+# UBUNTU-CONKY
+# A comprehensive conky script, configured for use on
+# Ubuntu / Debian Gnome, without the need for any external scripts.
+#
+# Based on conky-jc and the default .conkyrc.
+# INCLUDES:
+# - tail of /var/log/messages
+# - netstat shows number of connections from your computer and application/PID making it. Kill spyware!
+#
+# -- Pengo
+# 
+ 
+# Create own window instead of using desktop (required in nautilus)
+own_window yes
+own_window_type override
+own_window_transparent no
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+ 
+# Use double buffering (reduces flicker, may not work for everyone)
+double_buffer yes
+ 
+# fiddle with window
+use_spacer right
+
+# Use Xft?
+use_xft yes
+xftfont terminus:size=9
+xftalpha 0.8
+text_buffer_size 2048
+
+# Update interval in seconds
+update_interval 1
+
+# This is the number of times Conky will update before quitting.
+# Set to zero to run forever.
+total_run_times 0
+
+# Use double buffering (reduces flicker, may not work for everyone)
+double_buffer yes
+
+# Minimum size of text area
+minimum_size 990 0
+#maximum_width 1024
+
+# Draw shades?
+draw_shades no
+
+# Draw outlines?
+draw_outline no
+
+# Draw borders around text
+draw_borders yes
+
+# Stippled borders?
+stippled_borders 0
+
+# border margins
+border_margin 0
+
+# border width
+border_width 1
+
+# Default colors and also border colors
+default_color 151515
+#default_shade_color black
+#default_outline_color grey
+own_window_colour e5e5e5
+
+# Text alignment, other possible values are commented
+alignment top_middle
+#alignment top_left
+#alignment top_right
+#alignment bottom_left
+#alignment bottom_right
+
+# Gap between borders of screen and text
+# same thing as passing -x at command line
+gap_x 1
+gap_y 8
+
+# Subtract file system buffers from used memory?
+no_buffers yes
+
+# set to yes if you want all text to be in uppercase
+uppercase no
+
+# number of cpu samples to average
+set to 1 to disable averaging
+cpu_avg_samples 2
+
+# number of net samples to average
+# set to 1 to disable averaging
+net_avg_samples 2
+
+# Force UTF8? note that UTF8 support required XFT
+override_utf8_locale yes
+
+# Add spaces to keep things from moving about?  This only affects certain objects.
+use_spacer none
+
+TEXT
+${alignc}${color 0e7936}Cpu:${color 150e79}${cpu cpu1}% :: ${color 0e7936}Temp:${color 150e79}${acpitemp}°C :: ${color 0e7936}Ram:${color 150e79}$memperc% :: ${color 0e7936}Swap:${color 150e79}$swapperc% :: ${color 0e7936}Root:${color 150e79}${fs_used_perc /}% :: ${color 0e7936}Data1:${color 150e79}${fs_used_perc /mnt/DATA01}% :: ${color 0e7936}Data2:${color 150e79}${fs_used_perc /mnt/DATA02}% :: ${color 025700}Upload:${upspeed ppp0}--> ${totalup ppp0} ${color 150e79}:: ${color a72828}Download:${downspeed ppp0}--> ${totaldown ppp0}$color

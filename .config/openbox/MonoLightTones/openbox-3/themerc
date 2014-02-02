@@ -1,0 +1,138 @@
+#MonoLightTones OpenBox Theme (v2)
+
+# Window geometry
+padding.width: 1
+border.width: 1
+window.client.padding.width: 2
+window.client.padding.height: 2
+window.handle.width: 0
+
+#Menu geometry
+menu.border.width: 1
+menu.overlap: -8
+
+# Border colors
+window.active.border.color: #151515
+window.inactive.border.color: #151515
+menu.border.color: #151515
+window.active.client.color: #e5e5e5
+window.inactive.client.color: #e5e5e5
+
+# Text shadows
+window.active.label.text.font: shadow=n
+window.inactive.label.text.font: shadow=n
+menu.items.font: shadow=n
+menu.title.text.font: shadow=n
+
+# Window title justification
+window.label.text.justify: left
+
+# Active window
+window.active.title.bg: Flat
+window.active.title.bg.color: #e5e5e5
+window.active.label.bg: Parentrelative
+window.active.label.text.color: #e5e5e5
+window.active.title.separator.color: #e5e5e5
+
+window.active.handle.bg: Flat
+window.active.handle.bg.color: #151515
+window.active.grip.bg: Flat
+window.active.grip.bg.color: #151515
+
+window.active.button.unpressed.bg: Flat
+window.active.button.unpressed.bg.color: #e5e5e5
+window.active.button.unpressed.bg.border.color: #e5e5e5
+window.active.button.unpressed.image.color: #151515
+
+window.active.button.pressed.bg: Flat
+window.active.button.pressed.bg.color: #e5e5e5
+window.active.button.pressed.bg.border.color: #e5e5e5
+window.active.button.pressed.image.color: #151515
+
+window.active.button.disabled.bg: Flat
+window.active.button.disabled.bg.color: #e5e5e5
+window.active.button.disabled.bg.border.color: #e5e5e5
+window.active.button.disabled.image.color: #151515
+
+window.active.button.toggled.bg: Flat
+window.active.button.toggled.bg.color: #e5e5e5
+window.active.button.toggled.bg.border.color: #e5e5e5
+window.active.button.toggled.image.color: #3588ae
+
+window.active.button.hover.bg: Flat
+window.active.button.hover.bg.color: #e5e5e5
+window.active.button.hover.bg.border.color: #e5e5e5
+window.active.button.hover.image.color: #3588ae
+
+# Inactive windows
+window.inactive.title.bg: Flat
+window.inactive.title.bg.color: #e5e5e5
+window.inactive.label.bg: Parentrelative
+window.inactive.label.text.color: #e5e5e5
+window.inactive.title.separator.color: #e5e5e5
+
+window.inactive.handle.bg: Flat
+window.inactive.handle.bg.color: #151515
+window.inactive.grip.bg: Flat
+window.inactive.grip.bg.color: #151515
+
+window.inactive.button.unpressed.bg: Flat
+window.inactive.button.unpressed.bg.color: #e5e5e5
+window.inactive.button.unpressed.bg.border.color: #e5e5e5
+window.inactive.button.unpressed.image.color: #151515
+
+window.inactive.button.pressed.bg: Flat
+window.inactive.button.pressed.bg.color: #e5e5e5
+window.inactive.button.pressed.bg.border.color: #e5e5e5
+window.inactive.button.pressed.image.color: #151515
+
+window.inactive.button.disabled.bg: Flat
+window.inactive.button.disabled.bg.color: #e5e5e5
+window.inactive.button.disabled.bg.border.color: #e5e5e5
+window.inactive.button.disabled.image.color: #151515
+
+window.inactive.button.toggled.bg: Flat
+window.inactive.button.toggled.bg.color: #e5e5e5
+window.inactive.button.toggled.bg.border.color: #e5e5e5
+window.inactive.button.toggled.image.color: #3588ae
+
+window.inactive.button.hover.bg: Flat
+window.inactive.button.hover.bg.color: #e5e5e5
+window.inactive.button.hover.bg.border.color: #e5e5e5
+window.inactive.button.hover.image.color: #3588ae
+
+# Menus
+menu.title.bg: flat 
+menu.title.bg.color: #e5e5e5
+menu.title.text.color: #23729B
+menu.title.text.justify: right
+
+menu.items.bg: Flat Solid
+menu.items.bg.color: #e5e5e5
+menu.items.text.color: #151515
+menu.items.disabled.text.color: #343434
+
+menu.items.active.bg: flat diagonal gradient
+menu.items.active.bg.color: #e5e5e5
+menu.items.active.bg.colorTo: #e5e5e5
+menu.items.active.text.color: #3588ae
+menu.items.active.disabled.text.color: #343434
+
+#separator
+menu.separator.color: #151515
+menu.separator.width: 1
+menu.separator.padding.width: 3
+menu.separator.padding.height: 4
+
+
+#osd
+osd.border.width: 1
+osd.border.color:  #151515
+
+osd.bg: flat border
+osd.bg.color: #e5e5e5
+osd.bg.border.color: #151515
+
+osd.label.bg: parentrelative
+
+osd.label.text.color: #151515
