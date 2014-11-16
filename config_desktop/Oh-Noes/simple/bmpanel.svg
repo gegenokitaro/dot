@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="bmpanel.svg"
+   inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/l_clock2.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="15.839192"
+     inkscape:cx="128.01154"
+     inkscape:cy="978.10811"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="714"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:0.98999999000000005;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect3006"
+       width="276.78571"
+       height="139.64285"
+       x="-28.214285"
+       y="-11.209248" />
+    <rect
+       style="opacity:0.98999999;fill:#ffffff;stroke:none"
+       id="rect3004"
+       width="5"
+       height="26"
+       x="-17.709209"
+       y="-5.4594269"
+       inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_panel.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="opacity:0.98999999;fill:#ffffff;stroke:none"
+       id="rect3004-7"
+       width="10"
+       height="18"
+       x="2.5"
+       y="-1.2806761"
+       inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/sprtr.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="opacity:0.98999999;fill:#6585a7;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect3026"
+       width="2.1465743"
+       height="12.626906"
+       x="6.426713"
+       y="1.4058707"
+       inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/sprtr.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g3848"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/i_red.png">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_red.png"
+         y="-9.6406269"
+         x="32.804211"
+         height="26"
+         width="5"
+         id="rect3004-8-5"
+         style="opacity:0.98999999;fill:#ececec;fill-opacity:1;stroke:none" />
+      <rect
+         y="-9.6406269"
+         x="32.804211"
+         height="5.6304574"
+         width="5"
+         id="rect3832"
+         style="opacity:0.98999999;fill:#6585a7;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <rect
+       style="opacity:0.98999999000000005;fill:#8a8a8a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect3838"
+       width="16.920055"
+       height="16.162441"
+       x="1.2626907"
+       y="-44.410946" />
+    <g
+       id="g4019">
+      <path
+         style="opacity:0.98999999;fill:#cccccc;stroke:none"
+         d="m 44.511097,-6.8399617 31.285714,0 0,25.9999997 -31.285714,0 z"
+         id="rect3004-2"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="rect3004-8-2"
+         d="m 70.796811,-6.8399617 0,7.9999997 -5,5.0000001 5,4.9999999 0,8 5,0 0,-12.9999999 0,-12.9999998 -5,0 z"
+         style="opacity:0.98999999;fill:#ff2832;fill-opacity:1;stroke:none" />
+      <g
+         transform="matrix(0.58798733,0,0,0.58798733,22.605207,2.519913)"
+         id="g3979">
+        <path
+           style="opacity:0.98999999;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+           d="m 51.621061,-3.0012626 0,5.1946152 3.936544,4.1394589 -3.936544,4.1394585 0,5.194616 10.38923,0 0,-5.194616 -3.936544,-4.1394585 3.936544,-4.1394589 0,-5.1946152 -10.38923,0 z"
+           id="rect3898"
+           inkscape:connector-curvature="0" />
+        <rect
+           style="opacity:0.98999999;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect3955"
+           width="9.8660717"
+           height="3.125"
+           x="51.830357"
+           y="12.183608" />
+        <rect
+           style="opacity:0.98999999;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect3959"
+           width="8.207489"
+           height="1.1364216"
+           x="52.654202"
+           y="2.6242821" />
+        <path
+           style="fill:#000000;stroke:none"
+           d="M 53.159278,3.8869729 55.55839,6.2229506 58.146906,6.3492197 60.98796,3.3818966 52.843605,3.5713002 z"
+           id="path3961"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+    <rect
+       style="opacity:0.98999999000000005;fill:#fcfcfc;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect3010"
+       width="22"
+       height="22"
+       x="85.892853"
+       y="0.8978973" />
+    <rect
+       style="opacity:0.98999999;fill:#ffffff;stroke:none"
+       id="rect3004-5-5"
+       width="5"
+       height="26"
+       x="188.42551"
+       y="40.52924"
+       inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_panel.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="opacity:0.98999999;fill:#ff2a34;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect3010-2-7"
+       width="5"
+       height="20"
+       x="188.42551"
+       y="43.52924" />
+    <g
+       id="g3109"
+       inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/d_rc.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="translate(33.392857,-9.1071429)">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_panel.png"
+         y="25.433611"
+         x="106.85714"
+         height="26"
+         width="7"
+         id="rect3004-5-9"
+         style="opacity:0.98999999;fill:#ffffff;stroke:none" />
+      <rect
+         y="28.433611"
+         x="106.85714"
+         height="20"
+         width="2"
+         id="rect3010-2-77"
+         style="opacity:0.98999999;fill:#ff2a34;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <g
+       id="g4439"
+       inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/d_l.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_panel.png"
+         y="49.639305"
+         x="108.49793"
+         height="30"
+         width="6.5"
+         id="rect3004-5-0"
+         style="opacity:0.98999999;fill:#ffffff;stroke:none" />
+      <rect
+         y="54.639305"
+         x="109.99793"
+         height="20"
+         width="5"
+         id="rect3010-2-4"
+         style="opacity:0.98999999;fill:#ff2a34;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <g
+       id="g4457"
+       inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/d_c.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_panel.png"
+         y="49.913506"
+         x="117.95944"
+         height="30"
+         width="5"
+         id="rect3004-5-5-7"
+         style="opacity:0.98999999;fill:#ffffff;stroke:none" />
+      <rect
+         y="54.913506"
+         x="117.95944"
+         height="20"
+         width="5"
+         id="rect3010-2-7-7"
+         style="opacity:0.98999999;fill:#ff2a34;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <g
+       id="g4447"
+       inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/d_r.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="scale(-1,1)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_panel.png"
+         y="49.469707"
+         x="-131.42914"
+         height="30"
+         width="6.5"
+         id="rect3004-5-0-8"
+         style="opacity:0.98999999;fill:#ffffff;stroke:none" />
+      <rect
+         transform="scale(-1,1)"
+         y="54.469707"
+         x="-129.92914"
+         height="20"
+         width="5"
+         id="rect3010-2-4-1"
+         style="opacity:0.98999999;fill:#ff2a34;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <g
+       id="g4435"
+       inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/d_lc.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_panel.png"
+         y="49.597836"
+         x="96.031845"
+         height="30"
+         width="10"
+         id="rect3004-5-0-4"
+         style="opacity:0.98999999;fill:#ffffff;stroke:none" />
+      <rect
+         y="54.597836"
+         x="101.03185"
+         height="20"
+         width="5"
+         id="rect3010-2-4-0"
+         style="opacity:0.98999999;fill:#ff2a34;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <g
+       id="g4451"
+       inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/d_rc.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="translate(-0.44194174,-1.3258252)">
+      <rect
+         transform="scale(-1,1)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_panel.png"
+         y="50.963272"
+         x="-147.02939"
+         height="30"
+         width="13"
+         id="rect3004-5-0-4-8"
+         style="opacity:0.98999999;fill:#ffffff;stroke:none" />
+      <rect
+         transform="scale(-1,1)"
+         y="55.963272"
+         x="-139.02939"
+         height="20"
+         width="5"
+         id="rect3010-2-4-0-3"
+         style="opacity:0.98999999;fill:#ff2a34;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <g
+       id="g4395"
+       inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/u_lc.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="translate(-1.6071429,-0.17857143)">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_panel.png"
+         y="84.556099"
+         x="98.151688"
+         height="30"
+         width="10"
+         id="rect3004-5-0-4-2"
+         style="opacity:0.98999999;fill:#ffffff;stroke:none" />
+      <rect
+         y="89.556099"
+         x="103.15169"
+         height="20"
+         width="5"
+         id="rect3010-2-4-0-8"
+         style="opacity:0.98999999;fill:#b0dded;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <g
+       id="g4409"
+       transform="translate(-2.6516504,3.0304577)"
+       inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/u_rc.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="scale(-1,1)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_panel.png"
+         y="81.590637"
+         x="-149.5294"
+         height="30"
+         width="13"
+         id="rect3004-5-0-4-8-8"
+         style="opacity:0.98999999;fill:#ffffff;stroke:none" />
+      <rect
+         transform="scale(-1,1)"
+         y="86.590637"
+         x="-141.5294"
+         height="20"
+         width="5"
+         id="rect3010-2-4-0-3-5"
+         style="opacity:0.98999999;fill:#b1dded;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <g
+       id="g4415"
+       inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/u_l.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_panel.png"
+         y="84.603149"
+         x="109.213"
+         height="30"
+         width="6.5"
+         id="rect3004-5-0-1"
+         style="opacity:0.98999999;fill:#ffffff;stroke:none" />
+      <rect
+         y="89.603149"
+         x="110.713"
+         height="20"
+         width="5"
+         id="rect3010-2-4-3"
+         style="opacity:0.98999999;fill:#b1dded;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <g
+       id="g4399"
+       transform="translate(6.3852427,1.6235506)"
+       inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/u_c.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_panel.png"
+         y="82.517075"
+         x="111.26843"
+         height="30"
+         width="5"
+         id="rect3004-5-5-7-2"
+         style="opacity:0.98999999;fill:#ffffff;stroke:none" />
+      <rect
+         y="87.517075"
+         x="111.26843"
+         height="20"
+         width="5"
+         id="rect3010-2-7-7-5"
+         style="opacity:0.98999999;fill:#b1dded;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <g
+       id="g4421"
+       inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/u_r.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="translate(-1.1364216,4.2931484)">
+      <rect
+         transform="scale(-1,1)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_panel.png"
+         y="80.140289"
+         x="-132.54643"
+         height="30"
+         width="6.5"
+         id="rect3004-5-0-8-1"
+         style="opacity:0.98999999;fill:#ffffff;stroke:none" />
+      <rect
+         transform="scale(-1,1)"
+         y="85.140289"
+         x="-131.04643"
+         height="20"
+         width="5"
+         id="rect3010-2-4-1-2"
+         style="opacity:0.98999999;fill:#b1dded;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <g
+       id="g3839"
+       inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/l_clock2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="translate(9.091373,1.2626907)">
+      <g
+         transform="translate(-0.04748917,0)"
+         id="g3835">
+        <rect
+           style="opacity:0.98999999;fill:#ffffff;fill-opacity:1;stroke:none"
+           id="rect3004-6"
+           width="15"
+           height="26"
+           x="23.357143"
+           y="24.362181"
+           inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_panel.png"
+           inkscape:export-xdpi="90"
+           inkscape:export-ydpi="90" />
+        <path
+           style="opacity:0.98999999;fill:#ff2832;fill-opacity:1;stroke:none"
+           d="m 33.357143,24.362181 0,7.999999 -5,5.000001 5,5 0,8 5,0 0,-13 0,-13 -5,0 z"
+           id="rect3004-8-2-2"
+           inkscape:connector-curvature="0" />
+      </g>
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_panel.png"
+         y="26.362181"
+         x="23.309654"
+         height="22"
+         width="2"
+         id="rect3004-6-1"
+         style="opacity:0.98999999;fill:#6786a8;fill-opacity:1;stroke:none" />
+    </g>
+    <g
+       id="g3867"
+       inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/s_tray.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="translate(-3.2560748,0.17857143)">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_panel.png"
+         y="24.183605"
+         x="15.892858"
+         height="26"
+         width="5"
+         id="rect3004-0"
+         style="opacity:0.98999999;fill:#ffffff;stroke:none" />
+      <rect
+         y="26.183605"
+         x="15.892858"
+         height="22"
+         width="5"
+         id="rect3865"
+         style="opacity:0.98999999;fill:#6786a8;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <rect
+       style="opacity:0.98999999;fill:#ececec;fill-opacity:1;stroke:none"
+       id="rect3004-8-5-0"
+       width="5"
+       height="26"
+       x="-13.571428"
+       y="35.076469"
+       inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/h_r.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="opacity:0.98999999;fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect3004-23"
+       width="5"
+       height="30"
+       x="-3.2576127"
+       y="41.624611"
+       inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_panel.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g4384"
+       inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/s_tray.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         id="g4380">
+        <rect
+           style="opacity:0.98999999;fill:#ffffff;stroke:none"
+           id="rect3004-0-9"
+           width="5"
+           height="30"
+           x="178.56985"
+           y="76.222336"
+           inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_panel.png"
+           inkscape:export-xdpi="90"
+           inkscape:export-ydpi="90" />
+        <rect
+           style="opacity:0.98999999;fill:#6786a8;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect3865-3"
+           width="5"
+           height="22"
+           x="178.56985"
+           y="80.222336" />
+      </g>
+    </g>
+    <g
+       id="g4280"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/t_c.png">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_panel.png"
+         y="95.657623"
+         x="11.515866"
+         height="30"
+         width="5"
+         id="rect3004-23-5"
+         style="opacity:0.98999999;fill:#ffffff;fill-opacity:1;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_red.png"
+         y="98.657623"
+         x="11.515865"
+         height="24"
+         width="5"
+         id="rect3004-8-5-9"
+         style="opacity:0.98999999000000005;fill:#dcdcdc;fill-opacity:1;stroke:none" />
+      <rect
+         y="98.657623"
+         x="11.515865"
+         height="4"
+         width="5"
+         id="rect3832-0"
+         style="opacity:0.98999999000000005;fill:#0085ae;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <g
+       id="g4275"
+       inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/t_r.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_panel.png"
+         y="95.468895"
+         x="19.234501"
+         height="30"
+         width="7"
+         id="rect3004-23-5-8"
+         style="opacity:0.98999999;fill:#ffffff;fill-opacity:1;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_red.png"
+         y="98.468895"
+         x="19.234501"
+         height="24"
+         width="5"
+         id="rect3004-8-5-9-4"
+         style="opacity:0.98999999000000005;fill:#dcdcdc;fill-opacity:1;stroke:none" />
+      <rect
+         y="98.468895"
+         x="19.234501"
+         height="4"
+         width="5"
+         id="rect3832-0-5"
+         style="opacity:0.98999999000000005;fill:#0085ae;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <g
+       id="g4297"
+       inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/t_l.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         id="g4291">
+        <g
+           id="g4286">
+          <rect
+             transform="scale(-1,1)"
+             inkscape:export-ydpi="90"
+             inkscape:export-xdpi="90"
+             inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_panel.png"
+             y="95.668564"
+             x="-9.091733"
+             height="30"
+             width="7"
+             id="rect3004-23-5-8-3"
+             style="opacity:0.98999999;fill:#ffffff;fill-opacity:1;stroke:none" />
+          <rect
+             transform="scale(-1,1)"
+             inkscape:export-ydpi="90"
+             inkscape:export-xdpi="90"
+             inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_red.png"
+             y="98.668564"
+             x="-9.0917339"
+             height="24"
+             width="5"
+             id="rect3004-8-5-9-4-3"
+             style="opacity:0.98999999000000005;fill:#dcdcdc;fill-opacity:1;stroke:none" />
+          <rect
+             transform="scale(-1,1)"
+             y="98.668564"
+             x="-9.0917339"
+             height="4"
+             width="5"
+             id="rect3832-0-5-4"
+             style="opacity:0.98999999000000005;fill:#0085ae;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g4148"
+       inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/i_c.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_panel.png"
+         y="95.736359"
+         x="39.400349"
+         height="30"
+         width="5"
+         id="rect3004-23-5-3"
+         style="opacity:0.98999999;fill:#ffffff;fill-opacity:1;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_red.png"
+         y="98.736359"
+         x="39.400349"
+         height="24"
+         width="5"
+         id="rect3004-8-5-9-2"
+         style="opacity:0.98999999;fill:#dfdfdf;fill-opacity:1;stroke:none" />
+      <rect
+         y="98.736359"
+         x="39.400349"
+         height="4"
+         width="5"
+         id="rect3832-0-55"
+         style="opacity:0.98999999000000005;fill:#b6b6b6;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <g
+       id="g4153"
+       inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/i_r.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_panel.png"
+         y="95.54763"
+         x="47.118984"
+         height="30"
+         width="7"
+         id="rect3004-23-5-8-7"
+         style="opacity:0.98999999;fill:#ffffff;fill-opacity:1;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_red.png"
+         y="98.54763"
+         x="47.118984"
+         height="24"
+         width="5"
+         id="rect3004-8-5-9-4-2"
+         style="opacity:0.98999999;fill:#dfdfdf;fill-opacity:1;stroke:none" />
+      <rect
+         y="98.54763"
+         x="47.118984"
+         height="4"
+         width="5"
+         id="rect3832-0-5-9"
+         style="opacity:0.98999999000000005;fill:#b6b6b6;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <g
+       id="g4143"
+       inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/i_l.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="scale(-1,1)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_panel.png"
+         y="95.747299"
+         x="-36.976215"
+         height="30"
+         width="7"
+         id="rect3004-23-5-8-3-0"
+         style="opacity:0.98999999;fill:#ffffff;fill-opacity:1;stroke:none" />
+      <rect
+         transform="scale(-1,1)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_red.png"
+         y="98.747299"
+         x="-36.976215"
+         height="24"
+         width="5"
+         id="rect3004-8-5-9-4-3-3"
+         style="opacity:0.98999999;fill:#dcdcdc;fill-opacity:1;stroke:none" />
+      <rect
+         transform="scale(-1,1)"
+         y="98.747299"
+         x="-36.976215"
+         height="4"
+         width="5"
+         id="rect3832-0-5-4-3"
+         style="opacity:0.98999999000000005;fill:#b6b6b6;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <g
+       id="g4223"
+       inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/h_c.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_panel.png"
+         y="95.736359"
+         x="-16.158041"
+         height="30"
+         width="5"
+         id="rect3004-23-5-3-4"
+         style="opacity:0.98999999;fill:#ffffff;fill-opacity:1;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_red.png"
+         y="98.736359"
+         x="-16.158041"
+         height="24"
+         width="5"
+         id="rect3004-8-5-9-2-4"
+         style="opacity:0.98999999;fill:#dfdfdf;fill-opacity:1;stroke:none" />
+      <rect
+         y="98.736359"
+         x="-16.158041"
+         height="4"
+         width="5"
+         id="rect3832-0-55-2"
+         style="opacity:0.98999999000000005;fill:#9abdc5;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <g
+       id="g4218"
+       inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/h_r.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_panel.png"
+         y="95.54763"
+         x="-8.4394054"
+         height="30"
+         width="7"
+         id="rect3004-23-5-8-7-3"
+         style="opacity:0.98999999;fill:#ffffff;fill-opacity:1;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_red.png"
+         y="98.54763"
+         x="-8.4394054"
+         height="24"
+         width="5"
+         id="rect3004-8-5-9-4-2-2"
+         style="opacity:0.98999999;fill:#dfdfdf;fill-opacity:1;stroke:none" />
+      <rect
+         y="98.54763"
+         x="-8.4394054"
+         height="4"
+         width="5"
+         id="rect3832-0-5-9-9"
+         style="opacity:0.98999999000000005;fill:#9abdc5;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <g
+       id="g4228"
+       inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/h_l.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="scale(-1,1)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_panel.png"
+         y="95.747299"
+         x="18.582174"
+         height="30"
+         width="7"
+         id="rect3004-23-5-8-3-0-7"
+         style="opacity:0.98999999;fill:#ffffff;fill-opacity:1;stroke:none" />
+      <rect
+         transform="scale(-1,1)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_red.png"
+         y="98.747299"
+         x="18.582174"
+         height="24"
+         width="5"
+         id="rect3004-8-5-9-4-3-3-5"
+         style="opacity:0.98999999;fill:#dcdcdc;fill-opacity:1;stroke:none" />
+      <rect
+         transform="scale(-1,1)"
+         y="98.747299"
+         x="18.582174"
+         height="4"
+         width="5"
+         id="rect3832-0-5-4-3-8"
+         style="opacity:0.98999999000000005;fill:#9abdc5;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <g
+       id="g4374"
+       inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_red.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_panel.png"
+         y="37.002228"
+         x="207.19745"
+         height="30"
+         width="5"
+         id="rect3004-23-2"
+         style="opacity:0.98999999;fill:#ffffff;fill-opacity:1;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_red.png"
+         y="39.002228"
+         x="207.19745"
+         height="26"
+         width="5"
+         id="rect3004-8"
+         style="opacity:0.98999999;fill:#ff2832;fill-opacity:1;stroke:none" />
+    </g>
+    <g
+       id="g4364"
+       inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/l_clock.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="translate(47.47717,45.583133)">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/yotsuba/.local/share/bmpanel2/themes/simple/b_panel.png"
+         y="-7.4084868"
+         x="117.7125"
+         height="30"
+         width="15"
+         id="rect3004-6-3"
+         style="opacity:0.98999999;fill:#ffffff;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="rect3004-8-2-2-4"
+         d="m 127.7125,-5.4084866 0,7.999999 -5,5.000001 5,4.9999996 0,8 5,0 0,-12.9999996 0,-13 -5,0 z"
+         style="opacity:0.98999999;fill:#ff2832;fill-opacity:1;stroke:none" />
+    </g>
+  </g>
+</svg>

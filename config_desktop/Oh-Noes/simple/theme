@@ -1,0 +1,94 @@
+panel
+	position bottom
+	background b_panel.png
+
+theme
+	name simple
+	author ge
+
+desktop_switcher
+	idle
+		left_corner u_lc.png
+		left u_l.png
+		center u_c.png
+		right u_r.png
+		right_corner u_rc.png
+		font DejaVu Sans Mono for Powerline 8
+			color 100 100 100
+			offset 0 0
+			shadow_offset 0 0
+			shadow_color 242 242 242
+
+	pressed
+		left_corner d_lc.png
+		left d_l.png
+		center d_c.png
+		right d_r.png
+		right_corner d_rc.png
+		font DejaVu Sans Mono for Powerline 8
+			color 255 255 255
+			offset 0 0
+			shadow_offset 0 0
+			shadow_color 242 242 242
+
+taskbar
+	idle
+		left i_l.png
+		center i_c.png
+		right i_r.png
+		font Sans 8
+			color 70 70 70
+			align left
+			offset 0 0
+			shadow_offset 0 0
+			shadow_color 242 242 242
+		default_icon
+		icon_offset 0 0
+
+	idle_highlight
+		left h_l.png
+		center h_c.png
+		right h_r.png
+		font Sans 8
+			color 12 12 12
+			align left
+			offset 0 0
+			shadow_offset 0 0
+			shadow_color 242 242 242
+		default_icon
+		icon_offset 0 0
+
+	pressed
+		left t_l.png
+		center t_c.png
+		right t_r.png
+		font Sans 8
+			color 12 12 12
+			align left
+			offset 0 0
+			shadow_offset 0 0
+			shadow_color 242 242 242
+		default_icon
+		icon_offset 0 0
+
+	task_max_width 120
+
+systray
+	background
+		left s_tray.png
+		center s_tray.png
+		right s_tray.png
+	icon_size 20 20
+	offset 0 0
+
+clock
+	background
+		left l_clock.png
+		center b_red.png
+		right b_red.png
+	font Sans 8
+		color 255 255 255
+		offset 0 0
+		align right
+	
+	time_format   %d %b %y %R

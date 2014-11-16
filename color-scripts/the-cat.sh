@@ -18,7 +18,7 @@ Wallpaper=$(cat ~/.fehbg | cut -c 16-70)
 
 # Settings from ~/.Xdefaults
 xdef="~/.Xdefaults"
-TermFont="$(grep 'font' ~/.config/termite/config | awk '{print $3}')"
+TermFont="$(grep 'font' ~/.Xdefaults | awk '{print $3}')"
 
 # Time and date
 time=$( date "+%H.%M")
