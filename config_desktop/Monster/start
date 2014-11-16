@@ -1,0 +1,56 @@
+#!/usr/bin/env bash
+
+ff="/tmp/monsterwm.fifo"
+[[ -p $ff ]] || mkfifo -m 600 "$ff"
+
+xset +fp ~/.fonts/custom/ &
+xset fp rehash &
+~/.fehbg &
+compton -f -D8 -I0.05 -O0.05 &
+xsetroot -cursor_name left_ptr &
+sh ~/.wm/monsterwm/status.sh &
+devmon &
+wmname LG3D &
+
+while read -r; do
+    # filter output to only what we want to match and parse
+    [[ $REPLY =~ ^(([[:digit:]]+:)+[[:digit:]]+ ?)+$ ]] && read -ra desktops <<< "$REPLY" || continue
+    
+    for desktop in "${desktops[@]}"; do
+        # set values for
+        # d - the desktop id
+        # w - number of windows in that desktop
+        # m - tiling layout/mode for that desktop
+        # c - whether that desktop is the current (1) or not (0)
+        # u - whether a window in that desktop has an urgent hint set (1) or not (0)
+        IFS=':' read -r d w m c u <<< "$desktop"
+ 
+        # name each desktop 
+        case $d in
+            0) d=" term" s=" "   ;;
+            1) d=" web" s=" " ;;
+            2) d=" fun" s=" " ;;
+	    3) d=" work" s=" " ;;
+        esac
+ 
+       # name each layout/mode with a symbol underline=FF364069
+	((c)) && b="#FF272727" u="#FFA93432" && case $m in
+            0) i="  %{B#FF333333}  %{B}" ;;
+            1) i="   ⮘ " ;;
+            2) i="  [B]" ;;
+            3) i="  [G]" ;;
+        esac  || b="#FF161616" u="#FF161616"
+ 
+        # if the desktop has an urgent hint its color should be #ff0000
+        ((u)) && b="#FFFF7871"
+ 
+        # if the desktop has windows print that number next to the desktop name
+        # else just print the desktop name
+        ((w)) && r+="%{B$b}%{U$u}%{+u} $d %{F#FF3E3E3E}[$w]%{F} %{-u}%{B}" || r+="%{B$b}%{U$u}%{+u} $d %{F#FF3E3E3E}[-]%{F} %{-u}%{B}"
+    done
+    # read from fifo and output to dzen2
+    printf "%s%s\n" "$r" "$i" && unset r
+done < "$ff" | bar -p -d -g 300x17+0+0 -f '-*-stlarch-*-*-*-*-10-*-*-*-*-*-*-*,-*-lemon-*-*-*-*-10-*-*-*-*-*-*-*' -u 3 -B '#FF161616' -F "FF9A9A9A"&
+ 
+# pass output to fifo
+monsterwm > "$ff"
