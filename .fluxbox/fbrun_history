@@ -1,15 +1,19 @@
-nodedeadbeef
-beans
-deadbeef
-pcmanfm
-eadbeef
-deadbeef
-beans
-deadbeef
-deadbeef
-dbeef
-beans
-deadbeef
-scite
+spacefm
+rhythmbox
+gimp
 thunar
-chromium\
+scrot -cd 4
+inkscape
+scrot -cd 3
+luakit
+compton
+transmission-daemon
+conky -c ~/git/conky/date.conkyrc
+compton -f -D8 -I0.05 -O0.05
+gcolor3
+lxappearance
+killall transmission-daemon
+urxvt
+scrot -cd 2
+chromium
+vinagre

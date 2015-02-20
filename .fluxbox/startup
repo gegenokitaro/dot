@@ -1,3 +1,25 @@
-sh /home/kagura/scripts/flux-bar.sh &
-conky -c /home/kagura/scripts/conky-blok &
-sleep 0.1 && conky -c /home/kagura/scripts/header &
+#!/bin/sh
+#
+# fluxbox startup-script:
+#
+# Lines starting with a '#' are ignored.
+
+# Change your keymap:
+xmodmap "/home/kagura/.Xmodmap"
+
+# Applications you want to run with fluxbox.
+# MAKE SURE THAT APPS THAT KEEP RUNNING HAVE AN ''&'' AT THE END.
+#
+# unclutter -idle 2 &
+# wmnd &
+# wmsmixer -w &
+# idesk &
+~/.fehbg &
+conky -c ~/git/conky/date.conkyrc &
+compton -f -D8 -I0.05 -O0.05 &
+# And last but not least we start fluxbox.
+# Because it is the last app you have to run it with ''exec'' before it.
+
+exec fluxbox
+# or if you want to keep a log:
+# exec fluxbox -log "/home/kagura/.fluxbox/log"

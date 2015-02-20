@@ -14,53 +14,44 @@
 # - To prevent any other app from overwriting your menu
 #   you can change the menu name in ~/.fluxbox/init to:
 #     session.menuFile: ~/.fluxbox/my-menu
-[begin] (Ge)
+[begin] (Menu)
 [encoding] {UTF-8}
-      [exec]   (Run) {dmenu_run -b}
-[submenu] (Term)
-[exec]   (rxvt-unicode) {urxvt}
-      [exec]   (termite) {termite}
-[end] 
-[submenu] (Net)
-[submenu] (Browsers)
-      [exec]   (firefox) {firefox}
-      [exec]   (chromium) {chromium} 
-      [exec]   (luakit) {luakit}
-      [exec]   (jumanji) {jumanji}
+      [exec] (Run) {gmrun}
+      [exec] (Term) {urxvt}
+      [exec] (Firefox) {firefox}
+      [exec] (Blender) {blender}
+      [exec] (Files) {thunar}
+[submenu] (Music)
+      [exec] (Deadbeef) {deadbeef}
+      [exec] (MPD) {mpd}
 [end]
-[submenu] (FTP)
-      [exec]   (ftp) {urxvt -e ftp} 
+[submenu] (Graphic)
+      [exec] (Inkscape) {inkscape}
+      [exec] (GiMP) {gimp}
+      [exec] (Color) {gcolor3}
 [end]
+[submenu] (Tanoshi)
+      [exec] (Steam) {steam}
+      [exec] (PCSX) {pcsx}
+      [exec] (PCSX2) {pcsx2}
+      [exec] (PSP-emu) {ppsspp} 
 [end]
-[submenu] (Editors)
-      [exec]   (nano) {urxvt -e nano} 
-      [exec]   (vim) {urxvt -e vim}
-      [exec]   (gedit) {gedit}
-      [exec]   (scitext) {scite} 
-[end]
-[separator]
-[submenu] (Fluxbox menu)
-      [config] (Configure) 
+      [separator]
+[submenu] (No)
+      [config] (Configure)
 [submenu] (System Styles) {Choose a style...}
-      [stylesdir] (/usr/share/fluxbox/styles) 
+      [stylesdir] (/usr/share/fluxbox/styles)
 [end]
 [submenu] (User Styles) {Choose a style...}
-      [stylesdir] (~/.fluxbox/styles) 
+      [stylesdir] (~/.fluxbox/styles)
 [end]
-      [workspaces] (Workspace List) 
-[submenu] (Tools)
-      [exec] (Run) {fbrun} 
-      [exec] (Regen Menu) {fluxbox-generate_menu} 
-[end]
-[submenu] (Window Managers)
-      [restart] (xfce4) {startxfce4} 
-[end]
-      [commanddialog] (Fluxbox Command) 
-      [reconfig] (Reload config) 
-      [restart] (Restart) 
-      [exec] (About) {(fluxbox -v; fluxbox -info | sed 1d) | xmessage -file - -center} 
-      [separator] 
-      [exit] (Exit) 
+      [workspaces] (Workspace List)
+      [commanddialog] (Fluxbox Command)
+      [reconfig] (Reload config)
+      [restart] (Restart)
+      [exec] (About) {(fluxbox -v; fluxbox -info | sed 1d) | xmessage -file - -center}
+      [separator]
+      [exit] (Exit)
 [end]
 [endencoding]
 [end]
