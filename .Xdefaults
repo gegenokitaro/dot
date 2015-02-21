@@ -1,48 +1,51 @@
-urxvt.font:			xft:Inconsolata:pixelsize=12
-urxvt.termName:		big tit
-urxvt.background:		[95]#161616
-urxvt.foreground:		#a5a5a5
-urxvt.foreground_bold:	#fedfed
-urxvt.depth:			32
-urxvt.scrollBar:			false
-urxvt.matcher.button:	1
-urxvt.transparent:		false
-urxvt.allow_bold:		true
+URxvt.font: xft:PragmataPro for Powerline:pixelsize=12;xft:Sazanami Gothic,さざなみゴシック:pixelsize=10:style=Bold
 
-Xft.dpi:				96
-Xft.antialias:			true
-Xft.hinting:			full
+URxvt.depth: 24
+*scrollstyle: plain
+*scrollBar: false
+*scrollBar_floating: true
+*scrollBar_right: true
 
-URxvt.geometry:		85x28
-URxvt.fading:			0
-URxvt.tintColor:		#ffffff
-URxvt.shading:			0
-URxvt.inheritPixmap:	false
+*internalBorder: 4
 
-urxvt.cursorColor:		#a5a5a5
+Xft*dpi: 96
+Xft*antialias: true
+Xtf*hinting: full
 
-! --- standard colors ---
+! special
+*.foreground:   #ffffff
+*.background:   #454545
+*.cursorColor:  #ffffff
 
-urxvt.color0: 			#161616
-urxvt.color8: 			#4f4f4f
+! black
+*.color0:       #5a5a5a
+*.color8:       #8c8c8c
 
-urxvt.color1: 			#c43761
-urxvt.color9: 			#e9b1c2
+! red
+*.color1:       #fcd6d5
+*.color9:       #fecbc9
 
-urxvt.color2: 			#61c437
-urxvt.color10: 			#c2e9b1
+! green
+*.color2:       #fbdfe5
+*.color10:      #fbced9
 
-urxvt.color3: 			#c49a37
-urxvt.color11: 			#e9d8b1
+! yellow
+*.color3:       #f3e1cd
+*.color11:      #fdf0c8
 
-urxvt.color4: 			#3761c4
-urxvt.color12: 			#b1c2e9
+! blue
+*.color4:       #d7f3f8
+*.color12:      #a2d4de
 
-urxvt.color5: 			#9a37c4
-urxvt.color13: 			#d8b1e9
+! magenta
+*.color5:       #9ec6f6
+*.color13:      #7fc8e6
 
-urxvt.color6: 			#37c49a
-urxvt.color14: 			#b1e9d8
+! cyan
+*.color6:       #91cee6
+*.color14:      #4bc0c6
 
-urxvt.color7: 			#d3d3d3
-urxvt.color15: 			#f7f7f7
+! white
+*.color7:       #d4d4d4
+*.color15:      #f8f8f8
+
