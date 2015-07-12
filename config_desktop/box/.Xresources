@@ -1,0 +1,55 @@
+URxvt.font: xft:Mensch:pixelsize=12,xft:IPAGothic:pixelstyle=12
+!Sazanami Gothic,さざなみゴシック:pixelsize=12:style=Bold
+
+URxvt.depth: 24
+URxvt.geometry: 72x18
+*scrollstyle: plain
+*scrollBar: false
+*scrollBar_floating: true
+*scrollBar_right: true
+
+*internalBorder: 8
+
+Xft*dpi: 96
+Xft*antialias: true
+Xtf*hinting: full
+
+! special
+*.foreground:   #424442
+*.background:   #ffffff
+*.cursorColor:  #424442
+
+! black
+*.color0:       #474747
+*.color8:       #616161
+
+! red
+*.color1:       #E69A9A
+*.color9:       #CC8989
+
+! green
+*.color2:       #80BFA0
+*.color10:      #70A68B
+
+! yellow
+*.color3:       #E6BF99
+*.color11:      #CCAA88
+
+! blue
+*.color4:       #89AACC
+*.color12:      #7895B3
+
+! magenta
+*.color5:       #E69AC0
+*.color13:      #CC89AA
+
+! cyan
+*.color6:       #89C1CC
+*.color14:      #78A9B3
+
+! white
+*.color7:       #E6E6E6
+*.color15:      #CCCCCC
+
+! misc 
+*.color130:       #efcf9c
