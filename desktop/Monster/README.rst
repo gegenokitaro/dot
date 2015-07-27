@@ -10,9 +10,13 @@ MONSTER
 My configuration files for monsterwm and other compliment
 
 I use
+
 +  bar > for bar and candy
+
 +  mpd & ncmpcpp > music player and its client
+
 +  feh > set wallpaper
+
 
 =========
 
