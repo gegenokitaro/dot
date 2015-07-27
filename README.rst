@@ -20,26 +20,26 @@ My Recycle Bin
 
 **XFCE4** in da house yo..
 
-.. image:: xfce-4-temporary-truce.png
+.. image:: img/xfce-4-temporary-truce.png
 
 **kiben gakuha** - xmonad with colors
 
-.. image:: kiben_gakuha.png
+.. image:: img/kiben_gakuha.png
 
 **Minimal as Fuck** - xmonad with shits
 
-.. image:: minimalasfuck.png
+.. image:: img/minimalasfuck.png
 
 New Feature
 -----------
 + **dzen2 mpd**
 
-.. image:: currentmpd.png 
+.. image:: img/currentmpd.png 
 
 + **ncmpcpp - current**
 
-.. image:: ncmpcpp-current.png 
+.. image:: img/ncmpcpp-current.png 
 
 + **conky-majestic ~ not yet - wip**
 
-.. image:: conky-majestic.png 
+.. image:: img/conky-majestic.png 
